@@ -2,6 +2,7 @@
 backend:
   name: github
   repo: Fardibazz/freshyo
+  branch: main
 
 media_folder: static/img
 public_folder: /img
