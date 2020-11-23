@@ -78,7 +78,7 @@ collections:
         file: content/components/footer.json
         widget: "object"
         fields:
-          - { name: locationLabel, label: Location Label, widget: string }
+          - { name: locationsLabel, label: Location Label, widget: string }
 
           - name: locations
             label: Locations
@@ -106,7 +106,17 @@ collections:
             label_singular: account
             widget: list
             fields:
-              - { name: icon, widget: string }
+              - {
+                  name: icon,
+                  widget: select,
+                  options:
+                    [
+                      { label: Facebook, value: FacebookIcon },
+                      { label: Instagram, value: InstagramIcon },
+                      { label: Twitter, value: TwitterIcon },
+                      { label: Youtube, value: YoutubeIcon }
+                    ]
+                }
               - { name: link, widget: string }
     format: json
 
@@ -119,6 +129,7 @@ collections:
         file: content/pages/home.json
         fields:
           - name: header
+            widget: object
             fields:
               - { name: cursive, widget: string }
               - { name: title, widget: string }
