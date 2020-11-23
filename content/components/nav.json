@@ -1,0 +1,22 @@
+{
+  "logo": "/img/logo.png",
+  "name": "Farah",
+  "menu": [
+    {
+      "to": "/",
+      "label": "Home"
+    },
+    {
+      "to": "/pesan",
+      "label": "Pesan"
+    },
+    {
+      "to": "/tentang",
+      "label": "Tentang"
+    },
+    {
+      "to": "/kontak",
+      "label": "Kontak"
+    }
+  ]
+}

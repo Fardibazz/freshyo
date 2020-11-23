@@ -1,0 +1,285 @@
+{
+  "actions": {
+    "edit": "Edit",
+    "cancel": "Batal",
+    "continue_shopping": "Lanjutkan belanja",
+    "back_to_checkout": "Kembali ke checkout",
+    "checkout": "Checkout",
+    "apply": "Gunakan",
+    "type_address": "Ketik alamatmu",
+    "use_this_address": "Gunakan alamat ini",
+    "back_to_store": "Kembali ke toko",
+    "close_cart": "Tutup keranjang",
+    "show": "Tunjukkan",
+    "hide": "Sembunyikan",
+    "apply_changes": "Ubah",
+    "yes_use_it": "Ya, gunakan"
+  },
+  "header": {
+    "title_cart_summary": "Ringkasan Keranjang",
+    "loading": "Loading..."
+  },
+  "item": {
+    "quantity": "Jumlah",
+    "quantity_short": "Jml",
+    "decrement_quantity": "Perkecil jumlah",
+    "increment_quantity": "Perbesar jumlah",
+    "remove_item": "Hapus item",
+    "recurrence": {
+      "daily": "hari |||| %{smart_count} hari",
+      "weekly": "minggu |||| %{smart_count} minggu",
+      "monthly": "bulan |||| %{smart_count} bulan",
+      "yearly": "tahun |||| %{smart_count} tahun"
+    }
+  },
+  "subscription": {
+    "plan": "Plan",
+    "billed_on": "Dibayar pada",
+    "payment_amount": "Jumlah pembayaran"
+  },
+  "cart": {
+    "subtotal": "Subtotal",
+    "shipping_taxes_calculated_at_checkout": "Pengiriman dan pajak akan dihitung saat checkout.",
+    "loading": "Kami sedang menyiapkan keranjang belanjamu...",
+    "secured_by": "Diamankan oleh Snipcart",
+    "summary": "Ringkasan pesanan",
+    "empty": "Keranjang belanjamu kosong.",
+    "invoice_number": "Nomor invoice"
+  },
+  "order": {
+    "loading": "Kami sedang mengambil detail pesananmu..."
+  },
+  "discount_box": {
+    "promo_code": "Kode promo?",
+    "promo_code_placeholder": "Kode promo",
+    "promocode_applied": "Promo diaplikasikan"
+  },
+  "address_form": {
+    "name": "Nama lengkap",
+    "email": "Email",
+    "address1": "Alamat jalan",
+    "address2": "Apt",
+    "city": "Kota",
+    "country": "Negara",
+    "postalCode": "Kode pos",
+    "province": "Provinsi",
+    "dont_see_address": "Aku tidak melihat alamatku"
+  },
+  "billing": {
+    "title": "Billing",
+    "address": "Alamat billing",
+    "continue_to_shipping": "Lanjutkan ke pengiriman",
+    "use_different_shipping_address": "Gunakan alamat pengiriman yang berbeda"
+  },
+  "customer": {
+    "information": "Informasi pelanggan"
+  },
+  "customer_dashboard": {
+    "my_account": "Akunku",
+    "ordered_on": "Dipesan pada",
+    "next_billing_date": "Tanggal billing selanjutnya",
+    "price": "Harga",
+    "total": "Total",
+    "status": "Status",
+    "order": "Pesanan %{invoice_number}",
+    "order_details": "Detail pesanan",
+    "loading": "Loading...",
+    "no_orders": "Tidak ada pesanan yang ditemukan.",
+    "no_subscriptions": "Tidak ada subsripsi yang ditemukan.",
+    "view_invoice": "Lihat invoice",
+    "sign_out": "Keluar",
+    "show_more_orders": "Tunjukkan %{smart_count} pesanan lebih banyak"
+  },
+  "signin_form": {
+    "signin": "Masuk",
+    "dont_have_an_account": "Tidak punya akun?",
+    "email": "Email",
+    "password": "Password",
+    "forgot_your_password": "Lupa passwordmu?",
+    "close_form": "Kembali"
+  },
+  "forgot_password_form": {
+    "title": "Recover your password",
+    "instructions": "Tulis email akunmu dan kami akan mengirimkan tautan untuk me-reset passwordmu.",
+    "email": "Email",
+    "email_instructions": "Email dengan tautan untuk mereset passwordmu sudah dikirim.",
+    "action": "Kirim email reset password"
+  },
+  "reset_password_form": {
+    "title": "Reset passwordmu",
+    "password": "Password baru",
+    "confirmation_password": "Ketik ulang password barumu",
+    "action": "Reset password"
+  },
+  "register_form": {
+    "register": "Daftar",
+    "already_have_an_account": "Sudah punya akun?",
+    "email": "Email",
+    "password": "Password",
+    "confirm_password": "Konfirmasi password"
+  },
+  "your_guest_checkout": {
+    "or": "Atau",
+    "continue_as_a_guest": "Lanjutkan sebagai tamu"
+  },
+  "shipping": {
+    "title": "Pengiriman",
+    "shipping_to": "Pengiriman ke:",
+    "address": "Alamat pengiriman",
+    "method": "Metode pengiriman"
+  },
+  "payment": {
+    "form": {
+      "deferred_payment_title": "Tunda Pembayaran",
+      "deferred_payment_instructions": "Dengan memesan, kamu setuju untuk membayar nanti lewat metode pembayaran yang kami terima.",
+      "card_label": "Kartu kredit",
+      "card_number": "Nomor kartu",
+      "card_expiration": "MM/YY",
+      "card_cvv": "CVV",
+      "card_postal_code": "Kode pos"
+    },
+    "still_pending_notice": "Pembayaranmu masih diproses.",
+    "title": "Pembayaran",
+    "continue_to_payment": "Lanjutkan ke pembayaran",
+    "credit_card": "Kartu kredir",
+    "place_order": "Pesan",
+    "preparing_payment_session": "Menyiapkan pembayaran...",
+    "processing_payment": "Memproses pembayaran...",
+    "checkout_with": "Checkout dengan",
+    "checkout_with_method": "Checkout dengan %{method}",
+    "method_icon": "%{method} icon",
+    "no_payment": "Pesanan ini tidak membutuhkan pembayaran.",
+    "methods": {
+      "card": "Kartu kredir",
+      "paypal": "PayPal",
+      "paypal_express_checkout": "PayPal",
+      "apple_pay": "Apple Pay",
+      "bancontact": "Bancontact",
+      "belfius": "Belfius",
+      "eps": "Electronic Payment Standard",
+      "giropay": "Giropay",
+      "ideal": "iDEAL",
+      "ing_home_pay": "ING Home’Pay",
+      "kbc": "KBC",
+      "klarna_pay_later": "Klarna pay later",
+      "klarna_slice_it": "Klarna monthly financing",
+      "p24": "Przelewy24",
+      "sepa_debit": "SEPA bank transfer",
+      "sofort": "Sofort bank transfer",
+      "deferred_payment": "Bayar nanti"
+    }
+  },
+  "discounts": {
+    "title": "Diskon"
+  },
+  "cart_summary": {
+    "total": "Total",
+    "subtotal": "Subtotal",
+    "shipping": "Pengiriman",
+    "discount": "Diskon",
+    "quantity": "x"
+  },
+  "errors": {
+    "default": "Terjadi error, coba lagi nanti atau hubungi kami.",
+    "promo_code_is_invalid": "Kode promo ini tidak valid",
+    "promocode_already_in_cart": "Kode promo ini sudah dipakai",
+    "promocode_isnt_applicable": "Kode promo ini tidak bisa dipakai",
+    "promo_code_is_expired": "Kode promo ini sudah expired",
+    "stringEmpty": "Bagian ini barus diisi",
+    "required": "Bagian ini barus diisi",
+    "invalid_expiry_year_past": "Kartu sudah expired",
+    "email": "Tolong ketik alamat email yang valid",
+    "quantity_revised": "Jumlah direvisi karena keterbatasan stok.",
+    "quantity_out_of_stock": "Maaf, item ini habis, hapus dari keranjang untuk lanjut.",
+    "error_payment_items_are_invalid": {
+      "title": "Beberapa item di keranjangmu tidak valid",
+      "description": "Tolong review pesananmu, atau coba lagi nanti."
+    },
+    "card": {
+      "invalid_number": "Nomor kartu ini tidak valid.",
+      "invalid_date": "Tanggal expired kartu ini tidak valid.",
+      "invalid_year": "Tahun expired kartu ini tidak valid.",
+      "invalid_month": "Bulan expired kartu ini tidak valid.",
+      "invalid_cvv": "CVV kartu ini tidak valid.",
+      "invalid_expiration": "Tanggal expired kartu ini tidak valid.",
+      "expired": "Kartu kredit expired",
+      "declined": "Kartumu ditolak. Tolong hubungi penyedia kartumu untuk informasi lebih lanjut.",
+      "invalid_address": "Alamat kartu ini tidak benar.",
+      "insufficient_funds": "Akun tidak mempunyai jumlah dana yang cukup untuk transaksi ini.",
+      "card_not_supported": "Kartu tidak didukung in daerah ini.",
+      "currency_not_supported": "Mata uang ini belum didukung."
+    },
+    "transaction": {
+      "declined": "Terjadi error saat memproses kartu. Coba lagi nantu atau coba metode pembayaran yang lain."
+    },
+    "discounts": {
+      "conflict": "Beberapa diskon tidak bisa digabung. Gunankan diskon ini saja?"
+    },
+    "order_validation": {
+      "domain_crawling": {
+        "title": "Pesanan tidak bisa diproses.",
+        "description": "Kamu belum membayar. Tolong hubungi pemilik toko untuk informasi lebih lanjut."
+      },
+      "product_crawling": {
+        "title": "Harga produk mungkin sudah berubah.",
+        "description": "Coba hapus dan menambah pesanan di keranjangmu. Tolong hubungi pemilik toko untuk informasi lebih lanjut."
+      },
+      "stock_validation": {
+        "title": "Stok produk tidak tersedia.",
+        "description": "Stok beberapa produk mungkin tidak cukup untuk jumlah pesanan ini. Ubah jumlah atau hubungi pemilik toko untuk informasi lebih lanjut."
+      },
+      "custom_fields_validation": {
+        "title": "Ada informasi yang kurang.",
+        "description": "Beberapa produk di keranjang tidak mempunyai informasi yang harus ada. Tolong edit keranjang untuk lanjut."
+      },
+      "shipping_validation": {
+        "title": "Metode pengiriman tidak bisa divalidasi.",
+        "description": "Biaya pengiriman yang dipilih mungkin berubah atau tidak lagi tersedia. Tolong hubungi pemilik toko untuk informasi lebih lanjut."
+      }
+    },
+    "shipping": {
+      "account_configuration": {
+        "title": "Tidak ada metode pengiriman yang tersedia sekarang",
+        "description": "Coba lagi nanti, atau hubungi kami untuk bantuan."
+      },
+      "rates_calculation": {
+        "title": "Tidak bisa menghitung pengiriman untuk pesananmu",
+        "description": "Coba lagi nanti, atau hubungi kami untuk bantuan."
+      },
+      "no_rates_found": {
+        "title": "Tidak ada metode pengiriman yang tersedia untuk pesananmu",
+        "description": "Tolong review alamat pengirimanmu atau hubungi kami."
+      }
+    },
+    "payment_failed": {
+      "title": "Tidak bisa memproses pembayaran",
+      "description": "Coba lagi nanti, atau hubungi kami untuk bantuan."
+    },
+    "payment_authorization": {
+      "title": "Unable to process payment",
+      "default": "Tolong review informasi billing dan pembayaranmu."
+    },
+    "authentication_challenge": {
+      "failed": {
+        "title": "Tidak bisa memproses pembayaran",
+        "description": "Kami tidak bisa mengotentikasi informasi pembayaranmu. Tolong coba lagi"
+      }
+    },
+    "customer_exists": "Email ini sudah dipakai.",
+    "customer_password_missmatch": "Kedua passwords harus sama.",
+    "customer_password_token_expired": "Token pemulihan passwordmu sudah expired.",
+    "customer_password_token_invalid": "Token pemulihan passwordmu tidak valid.",
+    "customer_not_found": "Alamat email ini tidak terhubung dengan akun manapun.",
+    "invalid_credentials": "Email atau password tidak valid."
+  },
+  "customer_orders": {
+    "loading": "Loading..."
+  },
+  "confirmation": {
+    "thank_you_for_your_order": "Terima kasih atas pesananmu",
+    "async_confirmation_notice": "Pesananmu sudah kami terima dan sedang diproses. Kamu akan menerima konfirmasi sesaat lagi."
+  },
+  "checkout": {
+    "shipping_taxes_calculated_when_address_provided": "Biaya pengiriman dan pajak akan dihitung setelah alamat diberikan."
+  }
+}

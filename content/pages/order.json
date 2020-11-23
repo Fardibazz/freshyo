@@ -1,0 +1,20 @@
+{
+  "titles": [{ "type": "yoghurt", "label": "Yoghurt drink" }],
+
+  "products": [
+    {
+      "name": "Carrot Cake",
+      "price": 10000,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "img": "/img/cake-1.jpg",
+      "type": "yoghurt"
+    },
+    {
+      "name": "Blueberry Crumb Cake",
+      "price": 10000,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "img": "/img/cake-1.jpg",
+      "type": "yoghurt"
+    }
+  ]
+}

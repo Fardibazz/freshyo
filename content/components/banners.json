@@ -1,0 +1,50 @@
+{
+  "home": [
+    {
+      "cursive": "Tasteful",
+      "text": "Recipes",
+      "img": "/img/recipes.jpg"
+    },
+    {
+      "cursive": "The Perfect",
+      "text": "Blend",
+      "img": "/img/blend.jpg"
+    },
+    {
+      "cursive": "Loved by",
+      "text": "The people",
+      "img": "/img/about-us.jpg"
+    }
+  ],
+
+  "order": {
+    "cursive": "Delightful",
+    "text": "Products",
+    "img": "/img/order.jpg"
+  },
+
+  "about": [
+    {
+      "cursive": "Discover",
+      "text": "About us",
+      "img": "/img/about-us.jpg"
+    },
+    {
+      "cursive": "",
+      "text": "",
+      "img": "/img/bakery.jpg"
+    }
+  ],
+
+  "contact": {
+    "cursive": "Easy",
+    "text": "Contact",
+    "img": "/img/contact.jpg"
+  },
+
+  "sent": {
+    "cursive": "Message",
+    "text": "Sent",
+    "img": "/img/sent.jpg"
+  }
+}

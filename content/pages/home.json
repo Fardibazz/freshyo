@@ -1,0 +1,61 @@
+{
+  "header": {
+    "cursive": "welcome",
+    "title": "The Farah",
+    "subtitle": "Yoghurt drinks",
+    "img": "/img/header.jpg"
+  },
+
+  "about": {
+    "cursive": "Discover",
+    "title": "OUR STORY",
+    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, consequatur reprehenderit rem beatae accusantium possimus sunt cupiditate officiis quas tenetur?",
+    "link": "about us",
+    "to": "/tentang",
+    "img": "/img/about.jpg"
+  },
+
+  "products": {
+    "cursive": "delightful",
+    "title": "products",
+    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, consequatur reprehenderit rem beatae accusantium possimus sunt cupiditate officiis quas tenetur?",
+    "link": "view all products",
+    "to": "/pesan",
+    "productsShowcase": [
+      { "img": "/img/cake-1.jpg" },
+      { "img": "/img/cake-2.jpg" },
+      { "img": "/img/cake-3.jpg" },
+      { "img": "/img/cake-4.jpg" }
+    ]
+  },
+
+  "order": {
+    "cursive": "culinary",
+    "title": "delight",
+    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, consequatur reprehenderit rem beatae accusantium possimus sunt cupiditate officiis quas tenetur?",
+    "link": "order now",
+    "to": "/pesan",
+    "orderShowcase": [
+      { "img": "/img/cake-5.jpg" },
+      { "img": "/img/cake-6.jpg" }
+    ]
+  },
+
+  "testimonies": {
+    "cursive": "see what",
+    "title": "they say",
+    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, consequatur reprehenderit rem beatae accusantium possimus sunt cupiditate officiis quas tenetur?",
+    "testimoniesShowcase": [
+      {
+        "title": "Super Delish!",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "img": "/img/cake-1.jpg"
+      },
+      {
+        "title": "So fresh",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "img": "/img/cake-2.jpg"
+      }
+    ]
+  }
+}

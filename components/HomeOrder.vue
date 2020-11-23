@@ -1,0 +1,58 @@
+<template>
+  <b-container fluid class="py-5 d-flex justify-content-center">
+    <b-container class="row mx-auto">
+      <div class="col-lg-6 text-center" data-aos="fade-down-right">
+        <AppTitle
+          class="text-dark"
+          color="dark"
+          :cursive="page.order.cursive"
+          :img="page.order.img"
+          :text="page.order.title"
+        />
+
+        <AppIndexContent
+          :content="page.order.content"
+          :link="page.order.link"
+          :to="page.order.to"
+        />
+      </div>
+
+      <div class="col-lg-6 pic" data-aos="fade-down-left">
+        <div
+          v-for="(item, index) in page.order.orderShowcase"
+          :key="index"
+          class="img-wrapper"
+        >
+          <b-img v-lazy="item.img" fluid :alt="item" class="hvr-grow" />
+        </div>
+      </div>
+    </b-container>
+  </b-container>
+</template>
+
+<script>
+export default {
+  props: {
+    page: {
+      type: Object,
+      required: true
+    }
+  }
+};
+</script>
+
+<style lang="scss" scoped>
+.pic {
+  display: grid;
+  gap: 15px;
+  margin-top: 3rem;
+
+  @media (min-width: 576px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (min-width: 992px) {
+    margin-top: 0;
+  }
+}
+</style>
