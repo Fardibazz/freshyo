@@ -23,7 +23,7 @@
           :key="index"
           class="img-wrapper"
         >
-          <b-img v-lazy="item.img" fluid :alt="item" class="hvr-grow" />
+          <b-img v-lazy="item.img" fluid :alt="item.img" class="hvr-grow" />
         </div>
       </div>
     </b-container>

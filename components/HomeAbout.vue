@@ -19,7 +19,12 @@
 
       <div class="col-lg-6 pic" data-aos="fade-right">
         <div class="img-wrapper">
-          <b-img fluid class="hvr-grow" src="/img/about.jpg" alt="Food" />
+          <b-img
+            fluid
+            class="hvr-grow"
+            src="/img/about.jpg"
+            alt="Tentang kami"
+          />
         </div>
       </div>
     </b-container>

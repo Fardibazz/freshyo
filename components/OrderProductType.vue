@@ -17,7 +17,7 @@
               fluid
               thumbnail
               :src="item.img"
-              alt="item.name"
+              :alt="item.name"
               class="hvr-grow mb-2"
             ></b-img>
           </div>
