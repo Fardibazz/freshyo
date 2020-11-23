@@ -9,6 +9,7 @@
       :img="banner[0].img"
       :text="banner[0].text"
     />
+
     <HomeProducts :page="page" />
 
     <AppBanner
@@ -33,7 +34,7 @@
 export default {
   async asyncData({ $content }) {
     let banner = await $content("components/banners").fetch();
-    banner = banner.home;
+    banner = banner.homeBanner;
 
     const page = await $content("pages/home").fetch();
 

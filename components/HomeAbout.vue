@@ -5,24 +5,26 @@
         <AppTitle
           class="text-dark"
           color="dark"
-          :cursive="page.about.cursive"
-          :img="page.about.img"
-          :text="page.about.title"
+          :cursive="page.homeAbout.cursive"
+          :text="page.homeAbout.title"
         />
 
         <AppIndexContent
-          :content="page.about.content"
-          :link="page.about.link"
-          :to="page.about.to"
+          :content="page.homeAbout.content"
+          :link="page.homeAbout.link"
+          :to="page.homeAbout.to"
         />
       </div>
 
-      <div class="col-lg-6 pic" data-aos="fade-right">
+      <div
+        class="d-flex col-lg-6 justify-content-center pic"
+        data-aos="fade-right"
+      >
         <div class="img-wrapper">
           <b-img
             fluid
             class="hvr-grow"
-            src="/img/about.jpg"
+            :src="page.homeAbout.img"
             alt="Tentang kami"
           />
         </div>

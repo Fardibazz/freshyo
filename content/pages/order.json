@@ -3,18 +3,18 @@
 
   "products": [
     {
-      "name": "Carrot Cake",
-      "price": 10000,
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "type": "yoghurt",
       "img": "/img/cake-1.jpg",
-      "type": "yoghurt"
+      "name": "Carrot Cake",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "price": 10000
     },
     {
-      "name": "Blueberry Crumb Cake",
-      "price": 10000,
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "type": "yoghurt",
       "img": "/img/cake-1.jpg",
-      "type": "yoghurt"
+      "name": "Blueberry Crumb Cake",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "price": 10000
     }
   ]
 }

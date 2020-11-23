@@ -26,7 +26,7 @@
 export default {
   async asyncData({ $content }) {
     let banner = await $content("components/banners").fetch();
-    banner = banner.order;
+    banner = banner.orderBanner;
 
     const page = await $content("pages/order").fetch();
 

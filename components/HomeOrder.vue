@@ -5,21 +5,21 @@
         <AppTitle
           class="text-dark"
           color="dark"
-          :cursive="page.order.cursive"
-          :img="page.order.img"
-          :text="page.order.title"
+          :cursive="page.homeOrder.cursive"
+          :img="page.homeOrder.img"
+          :text="page.homeOrder.title"
         />
 
         <AppIndexContent
-          :content="page.order.content"
-          :link="page.order.link"
-          :to="page.order.to"
+          :content="page.homeOrder.content"
+          :link="page.homeOrder.link"
+          :to="page.homeOrder.to"
         />
       </div>
 
       <div class="col-lg-6 pic" data-aos="fade-down-left">
         <div
-          v-for="(item, index) in page.order.orderShowcase"
+          v-for="(item, index) in page.homeOrder.orderShowcase"
           :key="index"
           class="img-wrapper"
         >

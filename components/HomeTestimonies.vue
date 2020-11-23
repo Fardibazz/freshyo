@@ -13,7 +13,7 @@
           style="text-shadow: 1px 1px 2px #313332"
         >
           <b-carousel-slide
-            v-for="(item, index) in page.testimonies.testimoniesShowcase"
+            v-for="(item, index) in page.homeTestimonies.testimoniesShowcase"
             :key="index"
             :caption="item.title"
             :text="item.text"
@@ -26,12 +26,12 @@
         <AppTitle
           class="text-dark"
           color="dark"
-          :cursive="page.testimonies.cursive"
-          :img="page.testimonies.img"
-          :text="page.testimonies.title"
+          :cursive="page.homeTestimonies.cursive"
+          :img="page.homeTestimonies.img"
+          :text="page.homeTestimonies.title"
         />
 
-        <AppIndexContent :content="page.testimonies.content" />
+        <AppIndexContent :content="page.homeTestimonies.content" />
       </div>
     </b-container>
   </b-container>

@@ -13,7 +13,7 @@
 export default {
   async asyncData({ $content }) {
     let banner = await $content("components/banners").fetch();
-    banner = banner.sent;
+    banner = banner.sentBanner;
 
     return {
       banner

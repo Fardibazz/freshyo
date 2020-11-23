@@ -6,7 +6,7 @@
     "img": "/img/header.jpg"
   },
 
-  "about": {
+  "homeAbout": {
     "cursive": "Discover",
     "title": "OUR STORY",
     "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, consequatur reprehenderit rem beatae accusantium possimus sunt cupiditate officiis quas tenetur?",
@@ -15,7 +15,7 @@
     "img": "/img/about.jpg"
   },
 
-  "products": {
+  "homeProducts": {
     "cursive": "delightful",
     "title": "products",
     "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, consequatur reprehenderit rem beatae accusantium possimus sunt cupiditate officiis quas tenetur?",
@@ -29,7 +29,7 @@
     ]
   },
 
-  "order": {
+  "homeOrder": {
     "cursive": "culinary",
     "title": "delight",
     "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, consequatur reprehenderit rem beatae accusantium possimus sunt cupiditate officiis quas tenetur?",
@@ -41,7 +41,7 @@
     ]
   },
 
-  "testimonies": {
+  "homeTestimonies": {
     "cursive": "see what",
     "title": "they say",
     "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, consequatur reprehenderit rem beatae accusantium possimus sunt cupiditate officiis quas tenetur?",

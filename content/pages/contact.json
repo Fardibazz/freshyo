@@ -1,29 +1,19 @@
 {
-  "intro": "Leave us a message",
-  "email": "farahdb01@gmail.com",
-  "namePlaceholder": "Name",
-  "emailPlaceholder": "Email",
-  "messagePlaceholder": "Write your message here",
-  "map": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d510676.59343321755!2d116.89533301620098!3d-0.5089931817441912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2df5d57d33074935%3A0xef64e9b06c7ad3e7!2sSamarinda%20City%2C%20East%20Kalimantan!5e0!3m2!1sen!2sid!4v1591953273834!5m2!1sen!2sid\" width=\"700\" height=\"350\" frameborder=\"0\" style=\"border: 0;\" allowfullscreen=\"\" aria-hidden=\"false\" tabindex=\"0\" class=\"w-full\"></iframe>",
   "phone": [
     {
-      "number": "(414) 357-6188"
-    },
-    {
-      "number": "(414) 462-4476"
+      "number": "0852-5060-1220"
     }
   ],
-  "form": {
-    "map": "<iframe src=\\\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d510676.59343321755!2d116.89533301620098!3d-0.5089931817441912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2df5d57d33074935%3A0xef64e9b06c7ad3e7!2sSamarinda%20City%2C%20East%20Kalimantan!5e0!3m2!1sen!2sid!4v1591953273834!5m2!1sen!2sid\\\" width=\\\"700\\\" height=\\\"350\\\" frameborder=\\\"0\\\" style=\\\"border: 0;\\\" allowfullscreen=\\\"\\\" aria-hidden=\\\"false\\\" tabindex=\\\"0\\\" class=\\\"w-full\\\"></iframe>",
-    "messagePlaceholder": "Pesan",
-    "emailPlaceholder": "Email",
-    "namePlaceholder": "Nama",
-    "email": "farahdb01@gmail.com",
-    "intro": "Tinggalkan pesan disini.",
-    "phone": [
-      {
-        "number": "0852-5060-1220"
-      }
-    ]
-  }
+
+  "map": "<iframe src=\\\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d510676.59343321755!2d116.89533301620098!3d-0.5089931817441912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2df5d57d33074935%3A0xef64e9b06c7ad3e7!2sSamarinda%20City%2C%20East%20Kalimantan!5e0!3m2!1sen!2sid!4v1591953273834!5m2!1sen!2sid\\\" width=\\\"700\\\" height=\\\"350\\\" frameborder=\\\"0\\\" style=\\\"border: 0;\\\" allowfullscreen=\\\"\\\" aria-hidden=\\\"false\\\" tabindex=\\\"0\\\" class=\\\"w-full\\\"></iframe>",
+
+  "intro": "Tinggalkan pesan disini.",
+
+  "email": "farahdb01@gmail.com",
+
+  "namePlaceholder": "Nama",
+
+  "emailPlaceholder": "Email",
+
+  "messagePlaceholder": "Pesan"
 }

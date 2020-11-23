@@ -26,7 +26,7 @@ export default {
     accounts = accounts.accounts;
 
     let banner = await $content("components/banners").fetch();
-    banner = banner.contact;
+    banner = banner.contactBanner;
 
     const page = await $content("pages/contact").fetch();
 

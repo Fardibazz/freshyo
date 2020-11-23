@@ -8,11 +8,11 @@
 
     <b-container class="py-5" data-aos="fade-up">
       <h3 class="font-weight-bold h5 mb-4 text-center text-uppercase">
-        {{ page.history[0].title }}
+        {{ page.history.title }}
       </h3>
 
       <p class="mb-0 mx-auto">
-        {{ page.history[0].content }}
+        {{ page.history.content }}
       </p>
     </b-container>
 
@@ -21,14 +21,14 @@
       data-aos="fade-down"
     >
       <div class="img-wrapper mb-3 mx-auto rounded-circle">
-        <b-img fluid :src="page.quote[0].img" alt="Owner" class="hvr-grow" />
+        <b-img fluid :src="page.quote.img" alt="Owner" class="hvr-grow" />
       </div>
 
       <blockquote class="blockquote text-center">
         <p class="font-italic mb-0">
-          {{ page.quote[0].content }}
+          {{ page.quote.content }}
         </p>
-        <footer class="blockquote-footer">{{ page.quote[0].name }}</footer>
+        <footer class="blockquote-footer">{{ page.quote.name }}</footer>
       </blockquote>
     </b-container>
 
@@ -36,11 +36,11 @@
 
     <b-container class="mb-5 py-5" data-aos="fade-left">
       <h3 class="font-weight-bold h5 mb-4 text-center text-uppercase">
-        {{ page.today[0].title }}
+        {{ page.today.title }}
       </h3>
 
       <p class="mb-0 mx-auto">
-        {{ page.today[0].content }}
+        {{ page.today.content }}
       </p>
     </b-container>
   </div>
@@ -50,7 +50,7 @@
 export default {
   async asyncData({ $content }) {
     let banner = await $content("components/banners").fetch();
-    banner = banner.about;
+    banner = banner.aboutBanner;
 
     const page = await $content("pages/about").fetch();
 

@@ -3,7 +3,7 @@
     <b-container class="row mx-auto">
       <div class="col-lg-6 p-0 pic" data-aos="fade-up-left">
         <div
-          v-for="(item, index) in page.products.productsShowcase"
+          v-for="(item, index) in page.homeProducts.productsShowcase"
           :key="index"
           class="img-wrapper"
         >
@@ -15,15 +15,15 @@
         <AppTitle
           class="text-dark"
           color="dark"
-          :cursive="page.products.cursive"
-          :img="page.products.img"
-          :text="page.products.title"
+          :cursive="page.homeProducts.cursive"
+          :img="page.homeProducts.img"
+          :text="page.homeProducts.title"
         />
 
         <AppIndexContent
-          :content="page.products.content"
-          :link="page.products.link"
-          :to="page.products.to"
+          :content="page.homeProducts.content"
+          :link="page.homeProducts.link"
+          :to="page.homeProducts.to"
         />
       </div>
     </b-container>

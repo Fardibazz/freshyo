@@ -1,5 +1,5 @@
 {
-  "home": [
+  "homeBanner": [
     {
       "cursive": "Tasteful",
       "text": "Recipes",
@@ -17,13 +17,13 @@
     }
   ],
 
-  "order": {
+  "orderBanner": {
     "cursive": "Delightful",
     "text": "Products",
     "img": "/img/order.jpg"
   },
 
-  "about": [
+  "aboutBanner": [
     {
       "cursive": "Discover",
       "text": "About us",
@@ -36,13 +36,13 @@
     }
   ],
 
-  "contact": {
+  "contactBanner": {
     "cursive": "Easy",
     "text": "Contact",
     "img": "/img/contact.jpg"
   },
 
-  "sent": {
+  "sentBanner": {
     "cursive": "Message",
     "text": "Sent",
     "img": "/img/sent.jpg"

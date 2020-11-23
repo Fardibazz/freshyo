@@ -10,12 +10,12 @@
       <b-container class="my-3 mx-auto row" data-aos="flip-down">
         <div class="col-sm-6">
           <h3 class="h6 mb-3 mb-sm-4 text-capitalize">
-            {{ footer.locations.locationsLabel }}
+            {{ footer.locationsLabel }}
           </h3>
 
           <ul class="list-unstyled row">
             <li
-              v-for="(item, index) in footer.locations.places"
+              v-for="(item, index) in footer.locations"
               :key="index"
               class="col-lg-6 mb-2"
             >
@@ -29,12 +29,12 @@
 
         <div class="col-sm-6">
           <h3 class="h6 mt-3 mt-sm-0 mb-3 mb-sm-4 text-capitalize">
-            {{ footer.hours.hoursLabel }}
+            {{ footer.hoursLabel }}
           </h3>
 
           <ul class="list-unstyled row">
             <li
-              v-for="(item, index) in footer.hours.time"
+              v-for="(item, index) in footer.hours"
               :key="index"
               class="col-md-6 col-lg-4 mb-2"
             >

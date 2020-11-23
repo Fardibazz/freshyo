@@ -1,45 +1,31 @@
 <template>
-  <nav
-    class="navbar navbar-expand-md navbar-dark w-100"
-    data-aos="fade-down"
-    data-aos-duration="800"
-  >
-    <nuxt-link to="/" class="navbar-brand">
-      <img
-        class="d-inline-block align-top mr-2"
+  <b-navbar toggleable="md" type="dark" variant="dark" class="w-100">
+    <b-navbar-brand to="/">
+      <b-img
+        class="d-inline-block align-top"
         :src="nav.logo"
         alt="Logo"
-        height="30"
         width="30"
+        height="30"
       />
 
-      <span class="font-weight-bold name text-capitalize text-light">
-        {{ nav.name }}
-      </span>
-    </nuxt-link>
+      <span class="font-weight-bold name text-capitalize">{{ nav.name }}</span>
+    </b-navbar-brand>
 
-    <button
-      class="border-0 navbar-toggler"
-      type="button"
-      aria-controls="navbarSupportedContent"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-      data-target="#navbarSupportedContent"
-      data-toggle="collapse"
-    >
-      <span class="navbar-toggler-icon" />
-    </button>
+    <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
-    <div id="navbarSupportedContent" class="collapse navbar-collapse">
-      <ul class="navbar-nav text-right ml-auto w-auto">
-        <li v-for="(item, index) in nav.menu" :key="index" class="nav-item">
-          <nuxt-link :to="item.to" class="nav-link mx-2 pb-1 px-0">
-            {{ item.label }}
-          </nuxt-link>
-        </li>
-      </ul>
-    </div>
-  </nav>
+    <b-collapse id="nav-collapse" is-nav>
+      <b-navbar-nav class="ml-auto">
+        <b-nav-item
+          v-for="(item, index) in nav.menu"
+          :key="index"
+          :href="item.to"
+        >
+          {{ item.label }}
+        </b-nav-item>
+      </b-navbar-nav>
+    </b-collapse>
+  </b-navbar>
 </template>
 
 <script>
@@ -57,6 +43,10 @@ export default {
 .navbar {
   position: absolute;
   z-index: 1;
+}
+
+.bg-dark {
+  background-color: transparent !important;
 }
 
 .name {
