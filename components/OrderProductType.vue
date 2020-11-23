@@ -33,7 +33,7 @@
             :data-item-name="item.name"
             :data-item-id="toKebabCase(item.name)"
             :data-item-price="item.price"
-            data-item-url="https://farah.netlify.app/pesan"
+            data-item-url="https://freshyo.netlify.app/pesan"
             :data-item-description="item.description"
             class="snipcart-add-item"
           >

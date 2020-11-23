@@ -42,7 +42,7 @@
       <input
         name="_next"
         type="hidden"
-        value="https://farah.netlify.app/sent"
+        value="https://freshyo.netlify.app/sent"
       />
 
       <button class="btn btn-block btn-primary text-white" type="submit">

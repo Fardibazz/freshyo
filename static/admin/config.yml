@@ -1,10 +1,10 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: main
 
 media_folder: static/img
 public_folder: /img
-site_url: https://farah.netlify.app/
+site_url: https://freshyo.netlify.app/
 
 collections:
   - name: components
