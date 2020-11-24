@@ -1,4 +1,6 @@
 {
+  "orderUrl": "https://freshyo.netlify.app/pesan",
+
   "titles": [{ "type": "yoghurt", "label": "Yoghurt drink" }],
 
   "products": [
