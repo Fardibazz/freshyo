@@ -1,29 +1,29 @@
 <template>
   <div
-    class="tel d-lg-flex justify-content-between align-items-center mb-5 mb-lg-0"
+    class="align-items-center d-lg-flex justify-content-between mb-5 mb-lg-4 tel"
   >
     <ul class="list-unstyled mb-3 mb-lg-0">
       <li v-for="(item, index) in page.phone" :key="index">
-        <a :href="cleanNumber(item.number)" class="text-dark">
+        <b-link :href="cleanNumber(item.number)" class="text-dark">
           <p class="mb-1 mb-lg-0">
-            <PhoneIcon />
+            <PhoneIcon class="mr-3" />
             {{ item.number }}
           </p>
-        </a>
+        </b-link>
       </li>
     </ul>
 
     <ul
-      class="list-unstyled d-flex justify-content-center align-items-center mb-0"
+      class="align-items-center d-flex justify-content-center list-unstyled mb-0"
     >
       <li
         v-for="(item, index) in accounts"
         :key="index"
-        class="hvr-grow-rotate"
+        class="account hvr-grow-rotate"
       >
-        <a :href="item.link" class="text-dark">
+        <b-link :href="item.link" class="text-dark">
           <component :is="item.icon" class="h3 mx-3" />
-        </a>
+        </b-link>
       </li>
     </ul>
   </div>
@@ -65,6 +65,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.account:last-child {
+  @media (min-width: 992px) {
+    margin-right: -1rem;
+  }
+}
+
 .tel {
   text-align: center;
 

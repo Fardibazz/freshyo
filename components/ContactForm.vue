@@ -1,55 +1,46 @@
 <template>
   <div class="mb-5" data-aos="fade-up-left">
-    <h2>{{ page.intro }}</h2>
+    <h2 class="mb-3 mb-lg-4">{{ page.intro }}</h2>
 
-    <form :action="`https://formspree.io/${page.email}`" method="POST">
-      <div class="form-group">
-        <input
+    <b-form :action="`https://formspree.io/${page.email}`" method="POST">
+      <b-form-group>
+        <b-form-input
           id="name"
-          class="form-control"
-          name="name"
           :placeholder="page.namePlaceholder"
-          type="text"
+          name="name"
           required
         />
-      </div>
+      </b-form-group>
 
-      <div class="form-group">
-        <input
+      <b-form-group>
+        <b-form-input
           id="email"
-          class="form-control"
+          :placeholder="page.emailPlaceholder"
           name="_replyto"
-          :placeholder="page.emailPlaceholder"
-          type="email"
-          aria-describedby="emailHelp"
           required
+          type="email"
         />
-      </div>
+      </b-form-group>
 
-      <div class="form-group">
-        <textarea
+      <b-form-group>
+        <b-form-textarea
           id="message"
-          class="form-control"
+          :placeholder="page.messagePlaceholder"
           name="message"
-          :placeholder="page.emailPlaceholder"
           required
           rows="3"
         />
-      </div>
+      </b-form-group>
 
       <input name="_subject" type="hidden" value="Farah - Contact" />
 
-      <input
-        name="_next"
-        type="hidden"
-        value="https://freshyo.netlify.app/sent"
-      />
+      <input :value="page.sentUrl" name="_next" type="hidden" />
 
-      <button class="btn btn-block btn-primary text-white" type="submit">
+      <b-button block class="text-white" type="submit" variant="primary">
         <SendIcon />
         KIRIM
-      </button>
-    </form>
+      </b-button>
+    </b-form>
   </div>
 </template>
 

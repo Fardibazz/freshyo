@@ -1,66 +1,75 @@
 <template>
   <footer class="footer mt-auto">
-    <div class="text-center d-flex justify-content-center" data-aos="flip-up">
-      <a href="#top" class="bg-white btn rounded-circle text-muted top">
+    <div class="d-flex text-center justify-content-center" data-aos="flip-up">
+      <b-button
+        href="#top"
+        variant="light"
+        class="bg-white rounded-circle text-muted top"
+      >
         <ChevronUpIcon />
-      </a>
+      </b-button>
     </div>
 
-    <b-container fluid class="bg-black pt-5 pb-4 text-white">
-      <b-container class="my-3 mx-auto row" data-aos="flip-down">
-        <div class="col-sm-6">
-          <h3 class="h6 mb-3 mb-sm-4 text-capitalize">
-            {{ footer.locationsLabel }}
-          </h3>
+    <b-container fluid class="bg-black pb-4 pt-5 text-white">
+      <b-container class="my-3 mx-auto" data-aos="flip-down">
+        <b-row>
+          <b-col sm="6">
+            <h3 class="h6 mb-3 mb-sm-4 text-capitalize">
+              {{ footer.locationsLabel }}
+            </h3>
 
-          <ul class="list-unstyled row">
-            <li
-              v-for="(item, index) in footer.locations"
-              :key="index"
-              class="col-lg-6 mb-2"
-            >
-              <p class="mb-0">
-                {{ item.address }}<br />
-                {{ item.city }}
-              </p>
-            </li>
-          </ul>
-        </div>
+            <b-row>
+              <b-col
+                v-for="(item, index) in footer.locations"
+                :key="index"
+                class="mb-2"
+                lg="6"
+              >
+                <p class="mb-0">
+                  {{ item.address }}<br />
+                  {{ item.city }}
+                </p>
+              </b-col>
+            </b-row>
+          </b-col>
 
-        <div class="col-sm-6">
-          <h3 class="h6 mt-3 mt-sm-0 mb-3 mb-sm-4 text-capitalize">
-            {{ footer.hoursLabel }}
-          </h3>
+          <b-col sm="6">
+            <h3 class="h6 mb-3 mb-sm-4 mt-3 mt-sm-0 text-capitalize">
+              {{ footer.hoursLabel }}
+            </h3>
 
-          <ul class="list-unstyled row">
-            <li
-              v-for="(item, index) in footer.hours"
-              :key="index"
-              class="col-md-6 col-lg-4 mb-2"
-            >
-              <p class="mb-0">
-                {{ item.days }}<br />
-                {{ item.hours }}
-              </p>
-            </li>
-          </ul>
-        </div>
+            <b-row>
+              <b-col
+                v-for="(item, index) in footer.hours"
+                :key="index"
+                class="mb-2"
+                lg="4"
+                md="6"
+              >
+                <p class="mb-0">
+                  {{ item.days }}<br />
+                  {{ item.hours }}
+                </p>
+              </b-col>
+            </b-row>
+          </b-col>
+        </b-row>
       </b-container>
     </b-container>
 
-    <div class="bg-dark container-fluid py-2 text-light">
-      <div class="container d-flex align-items-center">
+    <b-container fluid class="bg-dark py-2 text-light">
+      <b-container class="align-items-center d-flex">
         <p class="mb-0">{{ footer.text }}</p>
 
-        <ul class="list-unstyled d-flex align-items-center mb-0">
+        <ul class="align-items-center d-flex list-unstyled mb-0">
           <li v-for="(item, index) in accounts" :key="index">
-            <a :href="item.link" class="text-light">
+            <b-link :href="item.link" class="text-light">
               <component :is="item.icon" class="mx-3 svg" />
-            </a>
+            </b-link>
           </li>
         </ul>
-      </div>
-    </div>
+      </b-container>
+    </b-container>
   </footer>
 </template>
 
@@ -95,6 +104,10 @@ export default {
 </script>
 
 <style scoped>
+.bg-black {
+  background-color: #212121;
+}
+
 .footer {
   position: relative;
 }
@@ -104,9 +117,5 @@ export default {
   min-width: 3rem;
   position: absolute;
   top: -31px;
-}
-
-.bg-black {
-  background-color: #212121;
 }
 </style>

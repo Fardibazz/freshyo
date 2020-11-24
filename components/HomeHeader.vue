@@ -1,18 +1,18 @@
 <template>
   <b-container
-    fluid
     :style="{ backgroundImage: `url(${page.header.img})` }"
     class="mh-100"
+    fluid
   >
     <b-container
       class="text-center"
-      data-aos="fade-up"
-      data-aos-duration="800"
       data-aos-delay="400"
+      data-aos-duration="800"
+      data-aos="fade-up"
     >
       <AppTitle :cursive="page.header.cursive" :text="page.header.title" />
 
-      <hr class="text-primary" />
+      <hr class="border-white hr text-primary" />
 
       <small class="h6 text-capitalize text-white">
         {{ page.header.subtitle }}
@@ -33,6 +33,16 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.container {
+  width: auto;
+
+  @media (min-width: 1200px) {
+    left: 10rem;
+    position: absolute;
+    top: 10rem;
+  }
+}
+
 .container-fluid {
   background: center center no-repeat;
   background-size: cover;
@@ -43,25 +53,18 @@ export default {
   }
 
   @media (min-width: 1200px) {
-    display: flex;
     align-items: center;
+    display: flex;
   }
 }
 
-.container {
-  width: auto;
-
-  @media (min-width: 1200px) {
-    position: absolute;
-    left: 10rem;
-    top: 10rem;
-  }
+.h6 {
+  letter-spacing: 0.5rem;
 }
 
-hr {
+.hr {
   border: none;
-  border-top: 0.25rem solid white;
-  color: white;
+  border-top: 0.25rem solid;
   max-width: 360px;
   overflow: visible;
 
@@ -74,9 +77,5 @@ hr {
     position: relative;
     top: -0.7em;
   }
-}
-
-.h6 {
-  letter-spacing: 0.5rem;
 }
 </style>

@@ -1,31 +1,33 @@
 <template>
-  <b-container fluid class="py-5 d-flex justify-content-center">
-    <b-container class="row mx-auto">
-      <div class="col-lg-6 p-0 pic" data-aos="fade-up-left">
-        <div
-          v-for="(item, index) in page.homeProducts.productsShowcase"
-          :key="index"
-          class="img-wrapper"
-        >
-          <b-img v-lazy="item.img" fluid class="hvr-grow" />
-        </div>
-      </div>
+  <b-container fluid class="d-flex justify-content-center py-5">
+    <b-container class="mx-auto">
+      <b-row>
+        <b-col class="p-0 pic" data-aos="fade-up-left" lg="6">
+          <div
+            v-for="(item, index) in page.homeProducts.productsShowcase"
+            :key="index"
+            class="img-wrapper"
+          >
+            <b-img v-lazy="item.img" class="hvr-grow" fluid />
+          </div>
+        </b-col>
 
-      <div class="col-lg-6 text-center" data-aos="fade-up-right">
-        <AppTitle
-          class="text-dark"
-          color="dark"
-          :cursive="page.homeProducts.cursive"
-          :img="page.homeProducts.img"
-          :text="page.homeProducts.title"
-        />
+        <b-col class="text-center" data-aos="fade-up-right" lg="6">
+          <AppTitle
+            :cursive="page.homeProducts.cursive"
+            :img="page.homeProducts.img"
+            :text="page.homeProducts.title"
+            class="text-dark"
+            color="dark"
+          />
 
-        <AppIndexContent
-          :content="page.homeProducts.content"
-          :link="page.homeProducts.link"
-          :to="page.homeProducts.to"
-        />
-      </div>
+          <AppHomeContent
+            :content="page.homeProducts.content"
+            :link="page.homeProducts.link"
+            :to="page.homeProducts.to"
+          />
+        </b-col>
+      </b-row>
     </b-container>
   </b-container>
 </template>

@@ -1,31 +1,33 @@
 <template>
-  <b-container fluid class="py-5 d-flex justify-content-center">
-    <b-container class="row mx-auto">
-      <div class="col-lg-6 text-center" data-aos="fade-down-right">
-        <AppTitle
-          class="text-dark"
-          color="dark"
-          :cursive="page.homeOrder.cursive"
-          :img="page.homeOrder.img"
-          :text="page.homeOrder.title"
-        />
+  <b-container class="d-flex justify-content-center py-5" fluid>
+    <b-container class="mx-auto">
+      <b-row>
+        <b-col class="text-center" data-aos="fade-down-right" lg="6">
+          <AppTitle
+            :cursive="page.homeOrder.cursive"
+            :img="page.homeOrder.img"
+            :text="page.homeOrder.title"
+            class="text-dark"
+            color="dark"
+          />
 
-        <AppIndexContent
-          :content="page.homeOrder.content"
-          :link="page.homeOrder.link"
-          :to="page.homeOrder.to"
-        />
-      </div>
+          <AppHomeContent
+            :content="page.homeOrder.content"
+            :link="page.homeOrder.link"
+            :to="page.homeOrder.to"
+          />
+        </b-col>
 
-      <div class="col-lg-6 pic" data-aos="fade-down-left">
-        <div
-          v-for="(item, index) in page.homeOrder.orderShowcase"
-          :key="index"
-          class="img-wrapper"
-        >
-          <b-img v-lazy="item.img" fluid class="hvr-grow" />
-        </div>
-      </div>
+        <b-col class="pic" data-aos="fade-down-left" lg="6">
+          <div
+            v-for="(item, index) in page.homeOrder.orderShowcase"
+            :key="index"
+            class="img-wrapper"
+          >
+            <b-img v-lazy="item.img" class="hvr-grow" fluid />
+          </div>
+        </b-col>
+      </b-row>
     </b-container>
   </b-container>
 </template>

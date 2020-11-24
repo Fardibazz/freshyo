@@ -1,34 +1,37 @@
 <template>
   <b-container fluid class="py-5 d-flex justify-content-center">
-    <b-container class="mx-auto row">
-      <div class="col-lg-6 text-center" data-aos="fade-left">
-        <AppTitle
-          class="text-dark"
-          color="dark"
-          :cursive="page.homeAbout.cursive"
-          :text="page.homeAbout.title"
-        />
-
-        <AppIndexContent
-          :content="page.homeAbout.content"
-          :link="page.homeAbout.link"
-          :to="page.homeAbout.to"
-        />
-      </div>
-
-      <div
-        class="d-flex col-lg-6 justify-content-center pic"
-        data-aos="fade-right"
-      >
-        <div class="img-wrapper">
-          <b-img
-            fluid
-            class="hvr-grow"
-            :src="page.homeAbout.img"
-            alt="Tentang kami"
+    <b-container class="mx-auto">
+      <b-row>
+        <b-col class="text-center" data-aos="fade-left" lg="6">
+          <AppTitle
+            :cursive="page.homeAbout.cursive"
+            :text="page.homeAbout.title"
+            class="text-dark"
+            color="dark"
           />
-        </div>
-      </div>
+
+          <AppHomeContent
+            :content="page.homeAbout.content"
+            :link="page.homeAbout.link"
+            :to="page.homeAbout.to"
+          />
+        </b-col>
+
+        <b-col
+          class="d-flex justify-content-center pic"
+          data-aos="fade-right"
+          lg="6"
+        >
+          <div class="img-wrapper">
+            <b-img
+              :src="page.homeAbout.img"
+              alt="Tentang kami"
+              class="hvr-grow"
+              fluid
+            />
+          </div>
+        </b-col>
+      </b-row>
     </b-container>
   </b-container>
 </template>

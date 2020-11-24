@@ -1,52 +1,43 @@
 <template>
-  <b-container fluid class="py-5 d-flex justify-content-center">
-    <b-container class="row mx-auto">
-      <div class="col-lg-6 p-0" data-aos="fade-up-left">
-        <b-carousel
-          id="carousel-1"
-          :interval="5000"
-          controls
-          indicators
-          background="#989ba3"
-          img-width="1600"
-          img-height="900"
-          style="text-shadow: 1px 1px 2px #313332"
-        >
-          <b-carousel-slide
-            v-for="(item, index) in page.homeTestimonies.testimoniesShowcase"
-            :key="index"
-            :caption="item.title"
-            :text="item.text"
-            :img-src="item.img"
-          ></b-carousel-slide>
-        </b-carousel>
-      </div>
+  <b-container fluid class="d-flex justify-content-center py-5">
+    <b-container class="mx-auto">
+      <b-row>
+        <b-col class="p-0" data-aos="fade-up-left" lg="6">
+          <b-carousel
+            id="carousel-1"
+            :interval="5000"
+            background="#989ba3"
+            controls
+            img-height="900"
+            img-width="1600"
+            indicators
+            style="text-shadow: 1px 1px 2px #313332"
+          >
+            <b-carousel-slide
+              v-for="(item, index) in page.homeTestimonies.testimoniesShowcase"
+              :key="index"
+              :caption="item.title"
+              :img-src="item.img"
+              :text="item.text"
+            ></b-carousel-slide>
+          </b-carousel>
+        </b-col>
 
-      <div class="col-lg-6 text-center" data-aos="fade-up-right">
-        <AppTitle
-          class="text-dark"
-          color="dark"
-          :cursive="page.homeTestimonies.cursive"
-          :img="page.homeTestimonies.img"
-          :text="page.homeTestimonies.title"
-        />
+        <b-col class="text-center" data-aos="fade-up-right" lg="6">
+          <AppTitle
+            :cursive="page.homeTestimonies.cursive"
+            :img="page.homeTestimonies.img"
+            :text="page.homeTestimonies.title"
+            class="text-dark"
+            color="dark"
+          />
 
-        <AppIndexContent :content="page.homeTestimonies.content" />
-      </div>
+          <AppHomeContent :content="page.homeTestimonies.content" />
+        </b-col>
+      </b-row>
     </b-container>
   </b-container>
 </template>
-
-<script>
-export default {
-  props: {
-    page: {
-      type: Object,
-      required: true
-    }
-  }
-};
-</script>
 
 <script>
 export default {

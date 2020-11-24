@@ -1,12 +1,12 @@
 <template>
-  <b-navbar toggleable="md" type="dark" variant="dark" class="w-100">
+  <b-navbar class="w-100" toggleable="md" type="dark" variant="dark">
     <b-navbar-brand to="/">
       <b-img
-        class="d-inline-block align-top"
         :src="nav.logo"
         alt="Logo"
-        width="30"
+        class="d-inline-block align-top"
         height="30"
+        width="30"
       />
 
       <span class="font-weight-bold name text-capitalize">{{ nav.name }}</span>
@@ -19,7 +19,7 @@
         <b-nav-item
           v-for="(item, index) in nav.menu"
           :key="index"
-          :href="item.to"
+          :to="item.to"
         >
           {{ item.label }}
         </b-nav-item>

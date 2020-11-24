@@ -2,7 +2,7 @@
   <b-container
     :style="{ backgroundImage: `url(${img})` }"
     fluid
-    class="d-flex flex-column justify-content-center align-items-center parallax py-5 mh-50"
+    class="align-items-center d-flex flex-column justify-content-center mh-50 parallax py-5"
   >
     <span class="cursive m-0 text-capitalize text-primary">
       {{ cursive }}

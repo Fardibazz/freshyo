@@ -1,9 +1,9 @@
 <template>
   <b-container
     v-if="banner.img"
-    fluid
     :style="{ backgroundImage: `url(${banner.img})` }"
-    class="d-flex justify-content-center align-items-center"
+    class="align-items-center d-flex justify-content-center"
+    fluid
   >
     <AppTitle :cursive="banner.cursive" :text="banner.text" />
   </b-container>
