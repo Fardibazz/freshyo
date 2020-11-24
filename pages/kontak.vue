@@ -45,10 +45,10 @@ export default {
   },
   computed: {
     latitude() {
-      return this.page.map.coordinates[1];
+      return JSON.parse(this.page.map).coordinates[1];
     },
     longitude() {
-      return this.page.map.coordinates[0];
+      return JSON.parse(this.page.map).coordinates[0];
     }
   }
 };
