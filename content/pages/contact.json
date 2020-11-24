@@ -4,16 +4,11 @@
       "number": "0852-5060-1220"
     }
   ],
-
   "intro": "Tinggalkan pesan disini.",
-
   "email": "farahdb01@gmail.com",
-
   "namePlaceholder": "Nama",
-
   "emailPlaceholder": "Email",
-
   "messagePlaceholder": "Pesan",
-
-  "sentUrl": "https://freshyo.netlify.app/terkirim"
+  "sentUrl": "https://freshyo.netlify.app/terkirim",
+  "map": "{\"type\":\"Point\",\"coordinates\":[117.0703125,-1.9332268]}"
 }
