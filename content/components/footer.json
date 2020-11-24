@@ -2,19 +2,19 @@
   "locationsLabel": "Lokasi",
   "locations": [
     {
-      "address": "Jl. Perjuangan Perum Alam Segar 2 No.7 ",
+      "address": "Jl. Perjuangan Perum. Alam Segar 2 No.7 ",
       "city": "Samarinda, Kalimantan Timur"
     }
   ],
   "hoursLabel": "Jam Buka",
   "hours": [
     {
-      "days": "Monday - Friday",
-      "hours": "10:00am - 8:00pm"
+      "days": "Senin - Jum'at",
+      "hours": "09:00 - 15:00"
     },
     {
       "days": "Saturday & Sunday",
-      "hours": "10:00am - 9:00pm"
+      "hours": "09:00am - 18:00"
     }
   ],
   "text": "© 2020 FRESHYO. All rights reserved."
