@@ -46,11 +46,5 @@
     "cursive": "Message",
     "title": "Sent",
     "img": "/img/sent.jpg"
-  },
-
-  "probioticsBanner": {
-    "cursive": "Facts about",
-    "title": "Probiotics",
-    "img": "/img/sent.jpg"
   }
 }
