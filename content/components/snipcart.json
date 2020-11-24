@@ -203,7 +203,7 @@
       "invalid_cvv": "CVV kartu ini tidak valid.",
       "invalid_expiration": "Tanggal expired kartu ini tidak valid.",
       "expired": "Kartu kredit expired",
-      "declined": "Kartumu ditolak. Tolong hubungi penyedia kartumu untuk informasi lebih lanjut.",
+      "declined": "Kartumu ditolak. Hubungi penyedia kartumu untuk informasi lebih lanjut.",
       "invalid_address": "Alamat kartu ini tidak benar.",
       "insufficient_funds": "Akun tidak mempunyai jumlah dana yang cukup untuk transaksi ini.",
       "card_not_supported": "Kartu tidak didukung in daerah ini.",
@@ -218,11 +218,11 @@
     "order_validation": {
       "domain_crawling": {
         "title": "Pesanan tidak bisa diproses.",
-        "description": "Kamu belum membayar. Tolong hubungi pemilik toko untuk informasi lebih lanjut."
+        "description": "Kamu belum membayar. Hubungi pemilik toko untuk informasi lebih lanjut."
       },
       "product_crawling": {
         "title": "Harga produk mungkin sudah berubah.",
-        "description": "Coba hapus dan menambah pesanan di keranjangmu. Tolong hubungi pemilik toko untuk informasi lebih lanjut."
+        "description": "Coba hapus dan menambah pesanan di keranjangmu. Hubungi pemilik toko untuk informasi lebih lanjut."
       },
       "stock_validation": {
         "title": "Stok produk tidak tersedia.",
@@ -234,7 +234,7 @@
       },
       "shipping_validation": {
         "title": "Metode pengiriman tidak bisa divalidasi.",
-        "description": "Biaya pengiriman yang dipilih mungkin berubah atau tidak lagi tersedia. Tolong hubungi pemilik toko untuk informasi lebih lanjut."
+        "description": "Biaya pengiriman yang dipilih mungkin berubah atau tidak lagi tersedia. Hubungi pemilik toko untuk informasi lebih lanjut."
       }
     },
     "shipping": {
