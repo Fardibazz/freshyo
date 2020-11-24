@@ -7,13 +7,14 @@
     />
 
     <b-container class="py-5" data-aos="fade-up">
-      <h3 class="font-weight-bold h5 mb-4 text-center text-uppercase">
+      <h3
+        :id="page.part1.id"
+        class="font-weight-bold h5 mb-4 text-center text-uppercase"
+      >
         {{ page.part1.title }}
       </h3>
 
-      <p class="mb-0 mx-auto">
-        {{ page.part1.content }}
-      </p>
+      <nuxt-content :document="page.part1.content" class="mb-0 mx-auto" />
     </b-container>
 
     <b-container
@@ -35,13 +36,36 @@
     <AppBanner empty :img="banner[1].img" />
 
     <b-container class="mb-5 py-5" data-aos="fade-left">
-      <h3 class="font-weight-bold h5 mb-4 text-center text-uppercase">
+      <h3
+        :id="page.part2.id"
+        class="font-weight-bold h5 mb-4 text-center text-uppercase"
+      >
         {{ page.part2.title }}
       </h3>
 
-      <p class="mb-0 mx-auto">
-        {{ page.part2.content }}
-      </p>
+      <ul class="list-unstyled">
+        <li v-for="(item, index) in page.part2.ingredients" :key="index">
+          <div class="img-wrapper">
+            <b-img
+              :alt="item.name"
+              :src="item.img"
+              center
+              class="hvr-grow mb-2"
+              fluid
+              thumbnail
+            ></b-img>
+          </div>
+
+          <h4 class="font-weight-bold h6 mb-4 text-uppercase">
+            {{ page.part2.ingredients.title }}
+          </h4>
+
+          <nuxt-content
+            :document="page.part2.ingredients.content"
+            class="mb-0 mx-auto"
+          />
+        </li>
+      </ul>
     </b-container>
   </div>
 </template>
