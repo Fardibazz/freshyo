@@ -1,50 +1,58 @@
 {
   "header": {
     "cursive": "welcome",
-    "title": "The Farah",
+    "title": "FRESH YO",
     "subtitle": "Yoghurt drinks",
-    "img": "/img/header.jpg"
+    "img": "/img/y.jpg"
   },
-
   "homeAbout": {
     "cursive": "Discover",
-    "title": "OUR STORY",
-    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, consequatur reprehenderit rem beatae accusantium possimus sunt cupiditate officiis quas tenetur?",
-    "link": "about us",
+    "title": "About Us",
+    "content": "Terbentuk ",
+    "link": "Tentang Kami",
     "to": "/tentang",
-    "img": "/img/about.jpg"
+    "img": "/img/whatsapp-image-2020-11-11-at-15.32.01-2-.jpeg"
   },
-
   "homeProducts": {
-    "cursive": "delightful",
-    "title": "products",
-    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, consequatur reprehenderit rem beatae accusantium possimus sunt cupiditate officiis quas tenetur?",
-    "link": "view all products",
+    "cursive": "Delightful",
+    "title": "Products",
+    "content": "Terbuat dari susu ultrahigh temperature (UHT) yang mana ........",
+    "link": "lihat semua produk",
     "to": "/pesan",
     "productsShowcase": [
-      { "img": "/img/cake-1.jpg" },
-      { "img": "/img/cake-2.jpg" },
-      { "img": "/img/cake-3.jpg" },
-      { "img": "/img/cake-4.jpg" }
+      {
+        "img": "/img/whatsapp-image-2020-11-24-at-11.14.49.jpeg"
+      },
+      {
+        "img": "/img/whatsapp-image-2020-11-24-at-11.14.50.jpeg"
+      },
+      {
+        "img": "/img/whatsapp-image-2020-11-24-at-11.14.48.jpeg"
+      },
+      {
+        "img": "/img/y.jpg"
+      }
     ]
   },
-
   "homeOrder": {
-    "cursive": "culinary",
-    "title": "delight",
-    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, consequatur reprehenderit rem beatae accusantium possimus sunt cupiditate officiis quas tenetur?",
-    "link": "order now",
+    "cursive": "Genuinely",
+    "title": "Good",
+    "content": "We make Nancy's products the right way, with authentic ingredients and simple, timeless recipes—carefully crafted by our family, for your family",
+    "link": "buruan order! gambar 5-6 potrait",
     "to": "/pesan",
     "orderShowcase": [
-      { "img": "/img/cake-5.jpg" },
-      { "img": "/img/cake-6.jpg" }
+      {
+        "img": "/img/cake-5.jpg"
+      },
+      {
+        "img": "/img/cake-6.jpg"
+      }
     ]
   },
-
   "homeTestimonies": {
     "cursive": "see what",
     "title": "they say",
-    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, consequatur reprehenderit rem beatae accusantium possimus sunt cupiditate officiis quas tenetur?",
+    "content": "penjelasan semua orang sudah mencobanya, kamu aja yang belom ",
     "testimoniesShowcase": [
       {
         "title": "Super Delish!",
