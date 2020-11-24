@@ -1,25 +1,25 @@
 {
-  "orderUrl": "https://freshyo.netlify.app/pesan",
+  "orderUrl": "https://freshyo.netlify.app/beli",
   "titles": [
     {
-      "type": "yoghurt",
-      "label": "Yoghurt drink"
+      "type": "yogurt",
+      "label": "Minuman Yogurt"
     }
   ],
   "products": [
     {
-      "type": "yoghurt",
+      "type": "yogurt",
       "img": "/img/cake-1.jpg",
-      "name": "strawberry yoghurt drink",
+      "name": "Strawberry Yogurt Drink",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "price": 10000
+      "price": 10000.0
     },
     {
-      "type": "yoghurt",
+      "type": "yogurt",
       "img": "/img/cake-1.jpg",
-      "name": "Blueberry Crumb Cake",
+      "name": "Mango Yogurt Drink",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "price": 10000
+      "price": 10000.0
     }
   ]
 }
