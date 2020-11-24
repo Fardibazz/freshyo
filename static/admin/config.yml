@@ -142,7 +142,7 @@ collections:
             fields:
               - { name: cursive, widget: string }
               - { name: title, widget: string }
-              - { name: content, widget: markdown }
+              - { name: content, widget: text }
               - { name: link, widget: string }
               - { name: to, widget: string }
               - { name: img, widget: image }
@@ -153,7 +153,7 @@ collections:
             fields:
               - { name: cursive, widget: string }
               - { name: title, widget: string }
-              - { name: content, widget: markdown }
+              - { name: content, widget: text }
               - { name: link, widget: string }
               - { name: to, widget: string }
 
@@ -170,7 +170,7 @@ collections:
             fields:
               - { name: cursive, widget: string }
               - { name: title, widget: string }
-              - { name: content, widget: markdown }
+              - { name: content, widget: text }
               - { name: link, widget: string }
               - { name: to, widget: string }
 
@@ -187,7 +187,7 @@ collections:
             fields:
               - { name: cursive, widget: string }
               - { name: title, widget: string }
-              - { name: content, widget: markdown }
+              - { name: content, widget: text }
 
               - name: testimoniesShowcase
                 label: Testimonies
@@ -202,6 +202,8 @@ collections:
         label: Order Page
         file: content/pages/order.json
         fields:
+          - { name: orderUrl, label: URL of the order page, widget: string }
+
           - name: titles
             label: Titles
             label_singular: Title
@@ -229,20 +231,20 @@ collections:
             widget: object
             fields:
               - { name: title, widget: string }
-              - { name: content, widget: string }
+              - { name: content, widget: text }
 
           - name: quote
             widget: object
             fields:
               - { name: img, widget: image }
-              - { name: content, widget: string }
+              - { name: content, widget: text }
               - { name: name, widget: string }
 
           - name: today
             widget: object
             fields:
               - { name: title, widget: string }
-              - { name: content, widget: string }
+              - { name: content, widget: text }
 
       - name: contact
         label: Contact Page
@@ -255,7 +257,7 @@ collections:
             fields:
               - { name: number, widget: string }
 
-          - { name: map, widget: markdown }
+          - { name: map, widget: map }
           - { name: intro, widget: string }
           - { name: email, widget: string }
           - { name: namePlaceholder, label: Name Placeholder, widget: string }
@@ -266,5 +268,7 @@ collections:
               label: Message Placeholder,
               widget: string
             }
+
+          - { name: sentUrl, label: URL after sending message, widget: string }
 
     format: json
