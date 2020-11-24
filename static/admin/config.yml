@@ -73,14 +73,6 @@ collections:
               - { name: title, widget: string }
               - { name: img, widget: image }
 
-          - name: probioticsBanner
-            label: Probiotics Banner
-            widget: object
-            fields:
-              - { name: cursive, widget: string }
-              - { name: title, widget: string }
-              - { name: img, widget: image }
-
       - name: footer
         label: Site Footer
         file: content/components/footer.json
@@ -290,8 +282,20 @@ collections:
 
           - { name: sentUrl, label: URL after sending message, widget: string }
 
-      - name: probiotics
-        label: Probiotics Page
-        file: content/pages/probiotics.json
+  - name: posts
+    label: Posts
+    label_singular: Post
+    description: Halaman artikel
+    folder: content/posts
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - name: postBanner
+        label: Post Banner
+        widget: object
         fields:
-          - { name: body, widget: markdown }
+          - { name: cursive, widget: string }
+          - { name: title, widget: string }
+          - { name: img, widget: image }
+
+      - { name: body, widget: markdown }
