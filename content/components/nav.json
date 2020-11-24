@@ -1,12 +1,10 @@
 {
   "logo": "/img/logo.png",
-
-  "name": "Farah",
-
+  "name": "FRESH YO",
   "menu": [
     {
       "to": "/",
-      "label": "Home"
+      "label": "Beranda"
     },
     {
       "to": "/pesan",
