@@ -30,11 +30,11 @@
 
 <script>
 export default {
-  props: {
-    nav: {
-      type: Object,
-      required: true
-    }
+  data() {
+    return { nav: null };
+  },
+  async fetch() {
+    this.nav = await this.$content("components/nav").fetch();
   }
 };
 </script>

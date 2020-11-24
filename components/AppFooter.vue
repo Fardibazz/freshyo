@@ -59,7 +59,7 @@
 
     <b-container fluid class="bg-dark py-2 text-light">
       <b-container class="align-items-center d-flex">
-        <p class="mb-0">{{ footer.text }}</p>
+        <p class="mb-0">{{ footer.text || "FRESHYO 2020" }}</p>
 
         <ul class="align-items-center d-flex list-unstyled mb-0">
           <li v-for="(item, index) in accounts" :key="index">
@@ -90,15 +90,14 @@ export default {
     TwitterIcon,
     YoutubeIcon
   },
-  props: {
-    accounts: {
-      type: Array,
-      required: true
-    },
-    footer: {
-      type: Object,
-      required: true
-    }
+  data() {
+    return { accounts: null, footer: null };
+  },
+  async fetch() {
+    this.accounts = await this.$content("components/social-media").fetch();
+    this.accounts = this.accounts.accounts;
+
+    this.footer = await this.$content("components/footer").fetch();
   }
 };
 </script>

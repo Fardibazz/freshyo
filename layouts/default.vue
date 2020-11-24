@@ -1,28 +1,12 @@
 <template>
-  <div v-if="nav" id="top" class="d-flex flex-column mh-100">
-    <AppNav :nav="nav" />
+  <div id="top" class="d-flex flex-column mh-100">
+    <AppNav />
 
     <nuxt keep-alive data-aos="fade" />
 
-    <AppFooter :accounts="accounts" :footer="footer" />
+    <AppFooter />
   </div>
 </template>
-
-<script>
-import accounts from "../content/components/social-media";
-import footer from "../content/components/footer";
-import nav from "../content/components/nav";
-
-export default {
-  data() {
-    return {
-      accounts: accounts.accounts,
-      footer,
-      nav
-    };
-  }
-};
-</script>
 
 <style lang="scss">
 :root {
