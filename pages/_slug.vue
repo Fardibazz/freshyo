@@ -1,12 +1,8 @@
 <template>
   <div class="mh-100">
-    <AppBanner
-      :cursive="page.postBanner.cursive"
-      :img="page.postBanner.img"
-      :title="page.postBanner.title"
-    />
+    <AppBanner :img="page.img" :title="page.title" />
 
-    <b-container class="mx-auto py-5 wrapper">
+    <b-container class="mx-auto py-5">
       <nuxt-content :document="page" />
     </b-container>
   </div>
