@@ -25,15 +25,8 @@ export default {
 </script>
 
 <style lang="scss">
-@import "../assets/scss/custom-bootstrap";
-
 :root {
   scroll-behavior: smooth;
-}
-
-::selection {
-  background-color: $primary;
-  color: white;
 }
 
 body {

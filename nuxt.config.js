@@ -21,7 +21,10 @@ export default {
     ]
   },
 
-  css: ["./assets/css/hover.css"],
+  css: [
+    { src: "@/assets/custom-bootstrap", lang: "scss" },
+    "./assets/hover.css"
+  ],
 
   plugins: ["@/plugins/aos.client", "@/plugins/vue-lazyload"],
 
@@ -34,8 +37,6 @@ export default {
   ],
 
   modules: ["@nuxt/content", "@nuxtjs/dotenv", "bootstrap-vue/nuxt"],
-
-  build: {},
 
   snipcart: {
     key: process.env.NUXT_ENV_SNIPCART_DATA_API_KEY,
