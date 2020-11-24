@@ -1,5 +1,5 @@
 {
-  "history": {
+  "part1": {
     "title": "proses",
     "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A harum sequi eos, neque tenetur perferendis nobis illo culpa non, sunt magni aperiam voluptatibus? Aliquam dicta quam asperiores magnam placeat praesentium.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Veniam repellendus odit, qui neque minima commodi minus nam asperiores illum  necessitatibus quos illo voluptatem, atque, ipsum error. Recusandaeasperiores vel architecto!\nLorem ipsum dolor sit, amet consectetur adipisicing elit. Quod quam enimquisquam illum laudantium voluptate deleniti dolorem! Quis eveniet atqueofficia modi est laudantium ullam tempore. Ea tempore deleniti cum."
   },
@@ -8,7 +8,7 @@
     "content": "Here we want to share with you our passion for quality baked goods.",
     "name": "Farah"
   },
-  "today": {
+  "part2": {
     "title": "bahan-bahan",
     "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam itaque  culpa cupiditate, iure quibusdam doloribus maiores earum labore  exercitationem quae repellendus. Sint dicta quam autem sed rem, corrupti  ex optio.\nLorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo provident  sapiente iure. Esse aliquam laborum veritatis quia maxime odit quisquam,  dolore quos itaque ut voluptate consequuntur. Dicta vitae ipsam vero!"
   }

@@ -8,11 +8,11 @@
 
     <b-container class="py-5" data-aos="fade-up">
       <h3 class="font-weight-bold h5 mb-4 text-center text-uppercase">
-        {{ page.history.title }}
+        {{ page.part1.title }}
       </h3>
 
       <p class="mb-0 mx-auto">
-        {{ page.history.content }}
+        {{ page.part1.content }}
       </p>
     </b-container>
 
@@ -36,11 +36,11 @@
 
     <b-container class="mb-5 py-5" data-aos="fade-left">
       <h3 class="font-weight-bold h5 mb-4 text-center text-uppercase">
-        {{ page.today.title }}
+        {{ page.part2.title }}
       </h3>
 
       <p class="mb-0 mx-auto">
-        {{ page.today.content }}
+        {{ page.part2.content }}
       </p>
     </b-container>
   </div>
@@ -61,3 +61,9 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+.img-wrapper {
+  max-height: 250px;
+}
+</style>
