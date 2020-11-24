@@ -4,11 +4,11 @@ export default {
   target: "static",
 
   head: {
-    title: "Yoghurt Farah",
+    title: "Yogurt Farah",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { hid: "description", name: "description", content: "Toko Yoghurt Farah" }
+      { hid: "description", name: "description", content: "Toko Yogurt Farah" }
     ],
     link: [
       { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
