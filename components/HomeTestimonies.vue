@@ -33,7 +33,7 @@
           />
 
           <AppHomeContent
-            :content="page.homeTestimonies.content"
+            :body="page.homeTestimonies.body"
             :link="page.homeTestimonies.link"
             :to="page.homeTestimonies.to"
           />

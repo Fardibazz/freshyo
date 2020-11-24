@@ -3,18 +3,18 @@
     <AppBanner
       :cursive="banner[0].cursive"
       :img="banner[0].img"
-      :text="banner[0].text"
+      :title="banner[0].title"
     />
 
     <b-container class="py-5" data-aos="fade-up">
       <h3
         :id="page.part1.id"
-        class="font-weight-bold h5 mb-4 text-center text-uppercase"
+        class="font-weight-bold h5 mb-4 mx-auto text-center text-uppercase"
       >
         {{ page.part1.title }}
       </h3>
 
-      <nuxt-content :document="page.part1.content" class="mb-0 mx-auto" />
+      <p class="mb-0 mx-auto">{{ page.part1.body }}</p>
     </b-container>
 
     <b-container
@@ -27,7 +27,7 @@
 
       <blockquote class="blockquote text-center">
         <p class="font-italic mb-0">
-          {{ page.quote.content }}
+          {{ page.quote.body }}
         </p>
         <footer class="blockquote-footer">{{ page.quote.name }}</footer>
       </blockquote>
@@ -35,35 +35,30 @@
 
     <AppBanner empty :img="banner[1].img" />
 
-    <b-container class="mb-5 py-5" data-aos="fade-left">
+    <b-container
+      class="d-flex flex-column align-items-center py-5"
+      data-aos="fade-left"
+    >
       <h3
         :id="page.part2.id"
-        class="font-weight-bold h5 mb-4 text-center text-uppercase"
+        class="font-weight-bold h5 mb-4 mx-auto text-center text-uppercase"
       >
         {{ page.part2.title }}
       </h3>
 
       <ul class="list-unstyled">
-        <li v-for="(item, index) in page.part2.ingredients" :key="index">
-          <div class="img-wrapper">
-            <b-img
-              :alt="item.name"
-              :src="item.img"
-              center
-              class="hvr-grow mb-2"
-              fluid
-              thumbnail
-            ></b-img>
-          </div>
-
-          <h4 class="font-weight-bold h6 mb-4 text-uppercase">
-            {{ page.part2.ingredients.title }}
+        <li
+          v-for="(item, index) in page.part2.ingredients"
+          :key="index"
+          class="mb-5"
+        >
+          <h4
+            class="border-bottom border-warning font-weight-bold h6 inline-block mb-4 text-uppercase"
+          >
+            {{ item.title }}
           </h4>
 
-          <nuxt-content
-            :document="page.part2.ingredients.content"
-            class="mb-0 mx-auto"
-          />
+          <p class="mb-0">{{ item.body }}</p>
         </li>
       </ul>
     </b-container>

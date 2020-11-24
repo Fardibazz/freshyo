@@ -11,7 +11,7 @@
           />
 
           <AppHomeContent
-            :content="page.homeAbout.content"
+            :body="page.homeAbout.body"
             :link="page.homeAbout.link"
             :to="page.homeAbout.to"
           />

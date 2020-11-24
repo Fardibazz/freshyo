@@ -3,7 +3,7 @@
     <AppBanner
       :cursive="banner.cursive"
       :img="banner.img"
-      :text="banner.text"
+      :title="banner.title"
     />
 
     <b-container class="mx-auto py-5 wrapper">

@@ -12,7 +12,7 @@
           />
 
           <AppHomeContent
-            :content="page.homeOrder.content"
+            :body="page.homeOrder.body"
             :link="page.homeOrder.link"
             :to="page.homeOrder.to"
           />

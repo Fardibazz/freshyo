@@ -22,7 +22,7 @@
           />
 
           <AppHomeContent
-            :content="page.homeProducts.content"
+            :body="page.homeProducts.body"
             :link="page.homeProducts.link"
             :to="page.homeProducts.to"
           />
@@ -31,17 +31,6 @@
     </b-container>
   </b-container>
 </template>
-
-<script>
-export default {
-  props: {
-    page: {
-      type: Object,
-      required: true
-    }
-  }
-};
-</script>
 
 <script>
 export default {

@@ -37,7 +37,7 @@ collections:
             widget: list
             fields:
               - { name: cursive, widget: string, required: false }
-              - { name: text, widget: string, required: false }
+              - { name: title, widget: string, required: false }
               - { name: img, widget: image }
 
           - name: orderBanner
@@ -45,7 +45,7 @@ collections:
             widget: object
             fields:
               - { name: cursive, widget: string }
-              - { name: text, widget: string }
+              - { name: title, widget: string }
               - { name: img, widget: image }
 
           - name: aboutBanner
@@ -54,7 +54,7 @@ collections:
             widget: list
             fields:
               - { name: cursive, widget: string, required: false }
-              - { name: text, widget: string, required: false }
+              - { name: title, widget: string, required: false }
               - { name: img, widget: image }
 
           - name: contactBanner
@@ -62,7 +62,7 @@ collections:
             widget: object
             fields:
               - { name: cursive, widget: string }
-              - { name: text, widget: string }
+              - { name: title, widget: string }
               - { name: img, widget: image }
 
           - name: sentBanner
@@ -70,7 +70,15 @@ collections:
             widget: object
             fields:
               - { name: cursive, widget: string }
-              - { name: text, widget: string }
+              - { name: title, widget: string }
+              - { name: img, widget: image }
+
+          - name: probioticsBanner
+            label: Probiotics Banner
+            widget: object
+            fields:
+              - { name: cursive, widget: string }
+              - { name: title, widget: string }
               - { name: img, widget: image }
 
       - name: footer
@@ -143,7 +151,7 @@ collections:
             fields:
               - { name: cursive, widget: string }
               - { name: title, widget: string }
-              - { name: content, widget: text }
+              - { name: body, widget: text }
               - { name: link, widget: string }
               - { name: to, widget: string }
               - { name: img, widget: image }
@@ -154,7 +162,7 @@ collections:
             fields:
               - { name: cursive, widget: string }
               - { name: title, widget: string }
-              - { name: content, widget: text }
+              - { name: body, widget: text }
               - { name: link, widget: string }
               - { name: to, widget: string }
 
@@ -171,7 +179,7 @@ collections:
             fields:
               - { name: cursive, widget: string }
               - { name: title, widget: string }
-              - { name: content, widget: text }
+              - { name: body, widget: text }
               - { name: link, widget: string }
               - { name: to, widget: string }
 
@@ -188,7 +196,7 @@ collections:
             fields:
               - { name: cursive, widget: string }
               - { name: title, widget: string }
-              - { name: content, widget: text }
+              - { name: body, widget: text }
               - { name: link, widget: string }
               - { name: to, widget: string }
 
@@ -235,13 +243,13 @@ collections:
             fields:
               - { name: id, widget: string }
               - { name: title, widget: string }
-              - { name: content, widget: markdown }
+              - { name: body, widget: text }
 
           - name: quote
             widget: object
             fields:
               - { name: img, widget: image }
-              - { name: content, widget: string }
+              - { name: body, widget: string }
               - { name: name, widget: string }
 
           - name: part2
@@ -256,8 +264,7 @@ collections:
                 widget: list
                 fields:
                   - { name: title, widget: string }
-                  - { name: content, widget: markdown }
-                  - { name: img, widget: image }
+                  - { name: body, widget: text }
 
       - name: contact
         label: Contact Page
@@ -283,5 +290,11 @@ collections:
             }
 
           - { name: sentUrl, label: URL after sending message, widget: string }
+
+      - name: probiotics
+        label: Probiotics Page
+        file: content/pages/probiotics.json
+        fields:
+          - { name: body, widget: markdown }
 
     format: json

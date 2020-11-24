@@ -2,49 +2,55 @@
   "homeBanner": [
     {
       "cursive": "Tiny heroes",
-      "text": "Big impact",
+      "title": "Big impact",
       "img": "/img/recipes.jpg"
     },
     {
       "cursive": "Real food",
-      "text": "For real",
+      "title": "For real",
       "img": "/img/blend.jpg"
     },
     {
       "cursive": "Genuinely",
-      "text": "Good",
+      "title": "Good",
       "img": "/img/about-us.jpg"
     }
   ],
 
   "orderBanner": {
     "cursive": "Delightful",
-    "text": "Products",
+    "title": "Products",
     "img": "/img/order.jpg"
   },
 
   "aboutBanner": [
     {
       "cursive": "Discover",
-      "text": "About us",
+      "title": "About us",
       "img": "/img/about-us.jpg"
     },
     {
       "cursive": "",
-      "text": "",
+      "title": "",
       "img": "/img/bakery.jpg"
     }
   ],
 
   "contactBanner": {
     "cursive": "Easy",
-    "text": "Contact",
+    "title": "Contact",
     "img": "/img/contact.jpg"
   },
 
   "sentBanner": {
     "cursive": "Message",
-    "text": "Sent",
+    "title": "Sent",
+    "img": "/img/sent.jpg"
+  },
+
+  "probioticsBanner": {
+    "cursive": "Facts about",
+    "title": "Probiotics",
     "img": "/img/sent.jpg"
   }
 }

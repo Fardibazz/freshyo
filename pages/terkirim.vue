@@ -5,7 +5,7 @@
     class="align-items-center d-flex justify-content-center"
     fluid
   >
-    <AppTitle :cursive="banner.cursive" :text="banner.text" />
+    <AppTitle :cursive="banner.cursive" :text="banner.title" />
   </b-container>
 </template>
 

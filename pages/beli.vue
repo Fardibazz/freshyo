@@ -4,7 +4,7 @@
       <AppBanner
         :cursive="banner.cursive"
         :img="banner.img"
-        :text="banner.text"
+        :title="banner.title"
         class="mb-5"
       />
 

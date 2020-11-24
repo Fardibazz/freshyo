@@ -12,11 +12,11 @@
       v-if="this.$route.name != 'index'"
       :class="'font-weight-bold text-uppercase text-' + color"
     >
-      {{ text }}
+      {{ title }}
     </h2>
 
     <h1 v-else :class="'font-weight-bold text-uppercase text-' + color">
-      {{ text }}
+      {{ title }}
     </h1>
   </b-container>
 </template>
@@ -36,7 +36,7 @@ export default {
       type: String,
       required: true
     },
-    text: {
+    title: {
       type: String,
       default: ""
     }

@@ -2,7 +2,7 @@
   <div class="w-100">
     <p class="text-muted">*</p>
 
-    <p class="text-muted">{{ content }}</p>
+    <p class="text-muted">{{ body }}</p>
 
     <b-link
       :to="to"
@@ -16,7 +16,7 @@
 <script>
 export default {
   props: {
-    content: {
+    body: {
       type: String,
       required: true
     },
