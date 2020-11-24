@@ -2,7 +2,7 @@
   "part1": {
     "id": "proses",
     "title": "Magiculture: Ketika susu menjadi yogurt",
-    "content": "And it all starts simply, with fresh milk and live cultures.\nWe pasteurize our fresh milk first—ensuring the live cultures are alive and ready to do their job. We then carefully nurture the beneficial bacteria, creating the perfect environment for them to grow, thrive, and multiply to the optimal levels for your good health.\nThe live cultures consume the milk’s naturally occurring lactose (or milk sugar), which transforms the fluid milk into Nancy’s signature richness.\nThe magic of live cultures means we never use thickeners or gelatins—our cultures do the work! That’s what we mean when we say fully cultured.\nHow do we know when our yogurt is ready? We ask Chuck! Our creamery co-founder still checks yogurt personally (nearly every night since 1970!) to make sure the flavor, consistency, probiotic growth, and balance is just right. (And to sneak a taste, of course!)"
+    "content": "And it all starts simply, with fresh milk and live cultures.\nWe pasteurize our fresh milk first—ensuring the live cultures are alive and ready to do their job. We then carefully nurture the beneficial bacteria, creating the perfect environment for them to grow, thrive, and multiply to the optimal levels for your good health.\n\nThe live cultures consume the milk’s naturally occurring lactose (or milk sugar), which transforms the fluid milk into Nancy’s signature richness.\nThe magic of live cultures means we never use thickeners or gelatins—our cultures do the work! That’s what we mean when we say fully cultured.\n\nHow do we know when our yogurt is ready? We ask Chuck! Our creamery co-founder still checks yogurt personally (nearly every night since 1970!) to make sure the flavor, consistency, probiotic growth, and balance is just right. (And to sneak a taste, of course!)"
   },
   "quote": {
     "img": "/img/owner.jpg",
@@ -15,22 +15,22 @@
     "ingredients": [
       {
         "title": "Susu segar",
-        "content": "Our milk comes from right here in Oregon, made with care by farmers who share our love for their cows and the fresh, healthy milk they produce.\nWe’re fortunate to receive milk from local family farms we’ve known for years and trust like neighbors. The farms we work with are small—no big factory farms for us!\nOur farmers pledge to never use the artificial growth hormone rBGH/rBST, and our milk is always free of herbicides, pesticides, and any trace of antibiotics.",
+        "content": "Our milk comes from right here in Oregon, made with care by farmers who share our love for their cows and the fresh, healthy milk they produce.\n\nWe’re fortunate to receive milk from local family farms we’ve known for years and trust like neighbors. The farms we work with are small—no big factory farms for us!\n\nOur farmers pledge to never use the artificial growth hormone rBGH/rBST, and our milk is always free of herbicides, pesticides, and any trace of antibiotics.",
         "img": "/img/cake-1.jpg"
       },
       {
         "title": "Buah asli",
-        "content": "Better for our health, better for our food, and better tasting—nothing beats real fruit!\nIt’s why we only use real strawberries, blueberries, peaches, and other fruit in Nancy’s products. You can taste the difference. Real fruit, sourced as locally as possible—some just minutes from our creamery.\nBut beyond authentic taste, the skin and seeds from real fruit in Nancy’s brings additional health benefits to the table—including vitamins, minerals, and fiber.",
+        "content": "Better for our health, better for our food, and better tasting—nothing beats real fruit!\n\nIt’s why we only use real strawberries, blueberries, peaches, and other fruit in Nancy’s products. You can taste the difference. Real fruit, sourced as locally as possible—some just minutes from our creamery.\n\nBut beyond authentic taste, the skin and seeds from real fruit in Nancy’s brings additional health benefits to the table—including vitamins, minerals, and fiber.",
         "img": "/img/cake-1.jpg"
       },
       {
         "title": "Pemanis alami",
-        "content": "The taste of real fruit is distinctly delicious—so why mess with it?\nWe never over-sweeten our products, because we want you to taste the real ingredients that make Nancy’s so uniquely delicious! It’s how yogurt and kefir should taste.\nWe carefully sweeten our fruit just a touch, so the real flavor comes through. And we only use pure honey, maple syrup, white grape juice, or organic cane sugar.",
+        "content": "The taste of real fruit is distinctly delicious—so why mess with it?\n\nWe never over-sweeten our products, because we want you to taste the real ingredients that make Nancy’s so uniquely delicious! It’s how yogurt and kefir should taste.\n\nWe carefully sweeten our fruit just a touch, so the real flavor comes through. And we only use pure honey, maple syrup, white grape juice, or organic cane sugar.",
         "img": "/img/cake-1.jpg"
       },
       {
         "title": "Hanya bahan alami",
-        "content": "There’s no such as thing as artificial health, so why use artificial ingredients?\nWe make Nancy’s the old-fashioned way—free of pectins, gelatins, or thickeners—and never with artificial colors or other un-pronounceable ingredients.",
+        "content": "There’s no such as thing as artificial health, so why use artificial ingredients?\n\nWe make Nancy’s the old-fashioned way—free of pectins, gelatins, or thickeners—and never with artificial colors or other un-pronounceable ingredients.",
         "img": "/img/cake-1.jpg"
       }
     ]
