@@ -44,6 +44,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.img-wrapper {
+  max-height: 500px;
+}
+
 .pic {
   display: grid;
   gap: 15px;

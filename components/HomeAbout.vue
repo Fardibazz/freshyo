@@ -48,6 +48,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.img-wrapper {
+  max-height: 350px;
+}
+
 .pic {
   margin-top: 3rem;
 
