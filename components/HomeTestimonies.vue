@@ -1,5 +1,5 @@
 <template>
-  <b-container fluid class="d-flex justify-content-center py-5">
+  <b-container fluid class="d-flex justify-content-center py-5 mb-5">
     <b-container class="mx-auto">
       <b-row>
         <b-col class="p-0" data-aos="fade-up-left" lg="6">
@@ -32,7 +32,11 @@
             color="dark"
           />
 
-          <AppHomeContent :content="page.homeTestimonies.content" />
+          <AppHomeContent
+            :content="page.homeTestimonies.content"
+            :link="page.homeTestimonies.link"
+            :to="page.homeTestimonies.to"
+          />
         </b-col>
       </b-row>
     </b-container>
