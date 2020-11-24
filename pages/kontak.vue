@@ -7,11 +7,18 @@
     />
 
     <b-container class="mx-auto py-5 wrapper">
-      <div class="d-lg-flex flex-column justify-content-between h-100">
+      <div class="d-lg-flex flex-column h-100 justify-content-between">
         <ContactDetails :accounts="accounts" :page="page" />
 
-        <!-- eslint-disable-next-line -->
-        <div v-html="page.map" />
+        <iframe
+          v-if="latitude"
+          class="mb-lg-5"
+          frameborder="0"
+          height="350"
+          scrolling="no"
+          :src="`https://www.bing.com/maps/embed?h=350&w=700&cp=${latitude}~${longitude}&lvl=11&typ=d&sty=r&src=SHELL&FORM=MBEDV8`"
+          width="700"
+        ></iframe>
       </div>
 
       <ContactForm :page="page" />
@@ -35,6 +42,14 @@ export default {
       banner,
       page
     };
+  },
+  computed: {
+    latitude() {
+      return this.page.map.coordinates[1];
+    },
+    longitude() {
+      return this.page.map.coordinates[0];
+    }
   }
 };
 </script>
