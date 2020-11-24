@@ -36,8 +36,8 @@ collections:
             label_singular: Home Banner
             widget: list
             fields:
-              - { name: cursive, widget: string }
-              - { name: text, widget: string }
+              - { name: cursive, widget: string, required: false }
+              - { name: text, widget: string, required: false }
               - { name: img, widget: image }
 
           - name: orderBanner
@@ -53,8 +53,8 @@ collections:
             label_singular: About Banner
             widget: list
             fields:
-              - { name: cursive, widget: string }
-              - { name: text, widget: string }
+              - { name: cursive, widget: string, required: false }
+              - { name: text, widget: string, required: false }
               - { name: img, widget: image }
 
           - name: contactBanner
@@ -95,6 +95,7 @@ collections:
             widget: list
             fields:
               - { name: days, widget: string }
+              - { name: hours, widget: string }
 
           - { name: text, widget: string }
 
@@ -227,7 +228,7 @@ collections:
         label: About Page
         file: content/pages/about.json
         fields:
-          - name: history
+          - name: part1
             widget: object
             fields:
               - { name: title, widget: string }
@@ -240,7 +241,7 @@ collections:
               - { name: content, widget: string }
               - { name: name, widget: string }
 
-          - name: today
+          - name: part2
             widget: object
             fields:
               - { name: title, widget: string }
