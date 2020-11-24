@@ -1,18 +1,18 @@
 {
   "homeBanner": [
     {
-      "cursive": "Tasteful",
-      "text": "Recipes",
+      "cursive": "Tiny heroes",
+      "text": "Big impact",
       "img": "/img/recipes.jpg"
     },
     {
-      "cursive": "The Perfect",
-      "text": "Blend",
+      "cursive": "Real food",
+      "text": "For real",
       "img": "/img/blend.jpg"
     },
     {
-      "cursive": "Loved by",
-      "text": "The people",
+      "cursive": "Genuinely",
+      "text": "Good",
       "img": "/img/about-us.jpg"
     }
   ],

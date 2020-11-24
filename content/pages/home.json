@@ -1,24 +1,24 @@
 {
   "header": {
     "cursive": "welcome",
-    "title": "FRESH YO",
-    "subtitle": "Yoghurt drinks",
+    "title": "FRESHYO",
+    "subtitle": "Minuman Yogurt",
     "img": "/img/y.jpg"
   },
   "homeAbout": {
-    "cursive": "Discover",
-    "title": "About Us",
-    "content": "Terbentuk ",
-    "link": "Tentang Kami",
-    "to": "/tentang",
+    "cursive": "Hello",
+    "title": "Friends",
+    "content": "Dunia terus berubah, tapi yogurtmu tidak. Dengan resep yang tak lekang oleh waktu kami membuat minuman probiotik untuk mendukung kesehatan imunmu!",
+    "link": "Cari tahu tentang probiotik",
+    "to": "/fakta-menarik",
     "img": "/img/whatsapp-image-2020-11-11-at-15.32.01-2-.jpeg"
   },
   "homeProducts": {
-    "cursive": "Delightful",
-    "title": "Products",
-    "content": "Terbuat dari susu ultrahigh temperature (UHT) yang mana ........",
-    "link": "lihat semua produk",
-    "to": "/pesan",
+    "cursive": "Our recipe",
+    "title": "For health",
+    "content": "Sederhana: susu lokal, bahan asli, dan jutaan probiotik — semua dibuat dengan hati-hati, dari keluarga kami, untuk keluargamu.",
+    "link": "Bagaimana Freshyo dibuat",
+    "to": "/tentang#proses",
     "productsShowcase": [
       {
         "img": "/img/whatsapp-image-2020-11-24-at-11.14.49.jpeg"
@@ -35,11 +35,11 @@
     ]
   },
   "homeOrder": {
-    "cursive": "Genuinely",
-    "title": "Good",
-    "content": "We make Nancy's products the right way, with authentic ingredients and simple, timeless recipes—carefully crafted by our family, for your family",
-    "link": "buruan order! gambar 5-6 potrait",
-    "to": "/pesan",
+    "cursive": "A healthy",
+    "title": "Variety",
+    "content": "Kami membuat produk Freshyo dengan baik, dengan bahan-bahan asli dan menyehatkan. Tanpa tambahan bahan pengawet!",
+    "link": "Lihat bahan yang kami pakai",
+    "to": "/tentang#bahan",
     "orderShowcase": [
       {
         "img": "/img/cake-5.jpg"
@@ -50,17 +50,19 @@
     ]
   },
   "homeTestimonies": {
-    "cursive": "see what",
-    "title": "they say",
-    "content": "penjelasan semua orang sudah mencobanya, kamu aja yang belom ",
+    "cursive": "People's",
+    "title": "Choice",
+    "content": "Orang-orang percaya pada kebaikan probiotik pada Freshyo untuk menjaga keseimbangan bakteri dalam perut. Freshyo adalah pilihan pertama mereka.",
+    "link": "Beli sekarang",
+    "to": "/beli",
     "testimoniesShowcase": [
       {
-        "title": "Super Delish!",
+        "title": "Sehat dan segar!",
         "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "img": "/img/cake-1.jpg"
       },
       {
-        "title": "So fresh",
+        "title": "Enak dan bermanfaat!",
         "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "img": "/img/cake-2.jpg"
       }
