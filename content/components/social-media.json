@@ -1,20 +1,8 @@
 {
   "accounts": [
     {
-      "icon": "FacebookIcon",
-      "link": "https://www.facebook.com"
-    },
-    {
       "icon": "InstagramIcon",
       "link": "https://www.instagram.com"
-    },
-    {
-      "icon": "TwitterIcon",
-      "link": "https://twitter.com"
-    },
-    {
-      "icon": "YoutubeIcon",
-      "link": "https://www.youtube.com"
     }
   ]
 }
