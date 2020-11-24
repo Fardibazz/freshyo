@@ -2,22 +2,22 @@
   "orderUrl": "https://freshyo.netlify.app/beli",
   "titles": [
     {
-      "type": "yogurt",
-      "label": "Minuman Yogurt"
+      "type": "yoghurt",
+      "label": "Minuman Yoghurt"
     }
   ],
   "products": [
     {
-      "type": "yogurt",
+      "type": "yoghurt",
       "img": "/img/cake-1.jpg",
-      "name": "Strawberry Yogurt Drink",
+      "name": "Strawberry Yoghurt Drink",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       "price": 10000.0
     },
     {
-      "type": "yogurt",
+      "type": "yoghurt",
       "img": "/img/cake-1.jpg",
-      "name": "Mango Yogurt Drink",
+      "name": "Mango Yoghurt Drink",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       "price": 10000.0
     }

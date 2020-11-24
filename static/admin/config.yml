@@ -127,7 +127,6 @@ collections:
                     ]
                 }
               - { name: link, widget: string }
-    format: json
 
   - name: pages
     label: Pages
@@ -220,7 +219,7 @@ collections:
             label_singular: Title
             widget: list
             fields:
-              - { name: type, widget: select, options: ["yogurt"] }
+              - { name: type, widget: select, options: ["yoghurt"] }
               - { name: label, widget: string }
 
           - name: products
@@ -228,7 +227,7 @@ collections:
             label_singular: Product
             widget: list
             fields:
-              - { name: type, widget: select, options: ["yogurt"] }
+              - { name: type, widget: select, options: ["yoghurt"] }
               - { name: img, widget: image }
               - { name: name, widget: string }
               - { name: description, widget: string }
@@ -296,5 +295,3 @@ collections:
         file: content/pages/probiotics.json
         fields:
           - { name: body, widget: markdown }
-
-    format: json
