@@ -50,7 +50,12 @@ $border-radius: 0;
 //  @import "~bootstrap/scss/modal";
 //  @import "~bootstrap/scss/tooltip";
 //  @import "~bootstrap/scss/popover";
- @import "~bootstrap/scss/carousel";
+@import "~bootstrap/scss/carousel";
 //  @import "~bootstrap/scss/spinners";
 @import "~bootstrap/scss/utilities";
 //  @import "~bootstrap/scss/print";
+
+::selection {
+  background-color: $primary;
+  color: white;
+}
