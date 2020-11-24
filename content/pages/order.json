@@ -9,14 +9,14 @@
       "img": "/img/cake-1.jpg",
       "name": "Carrot Cake",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "price": 10000
+      "price": 10000.00
     },
     {
       "type": "yoghurt",
       "img": "/img/cake-1.jpg",
       "name": "Blueberry Crumb Cake",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "price": 10000
+      "price": 10000.00
     }
   ]
 }
