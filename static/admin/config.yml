@@ -237,7 +237,7 @@ collections:
             widget: object
             fields:
               - { name: img, widget: image }
-              - { name: content, widget: text }
+              - { name: content, widget: string }
               - { name: name, widget: string }
 
           - name: today
