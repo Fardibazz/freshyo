@@ -4,9 +4,12 @@
 
     <p class="text-muted">{{ content }}</p>
 
-    <nuxt-link :to="to" class="text-uppercase text-primary">
+    <b-link
+      :to="to"
+      class="border-bottom border-warning text-primary text-uppercase"
+    >
       {{ link }}
-    </nuxt-link>
+    </b-link>
   </div>
 </template>
 
@@ -17,24 +20,14 @@ export default {
       type: String,
       required: true
     },
-    to: {
+    link: {
       type: String,
       default: ""
     },
-    link: {
+    to: {
       type: String,
       default: ""
     }
   }
 };
 </script>
-
-<style lang="scss" scoped>
-a {
-  border-bottom: 0.125rem solid #ff9800;
-
-  &:hover {
-    border-bottom: 0.125rem solid #cc7a00;
-  }
-}
-</style>
