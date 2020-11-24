@@ -1,14 +1,14 @@
 {
   "logo": "/img/logo.png",
-  "name": "FRESH YO",
+  "name": "FRESHYO",
   "menu": [
     {
       "to": "/",
       "label": "Beranda"
     },
     {
-      "to": "/pesan",
-      "label": "Pesan"
+      "to": "/beli",
+      "label": "Beli"
     },
     {
       "to": "/tentang",
