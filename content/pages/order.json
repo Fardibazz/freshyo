@@ -1,22 +1,25 @@
 {
   "orderUrl": "https://freshyo.netlify.app/pesan",
-
-  "titles": [{ "type": "yoghurt", "label": "Yoghurt drink" }],
-
+  "titles": [
+    {
+      "type": "yoghurt",
+      "label": "Yoghurt drink"
+    }
+  ],
   "products": [
     {
       "type": "yoghurt",
       "img": "/img/cake-1.jpg",
-      "name": "Carrot Cake",
+      "name": "strawberry yoghurt drink",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "price": 10000.0
+      "price": 10000
     },
     {
       "type": "yoghurt",
       "img": "/img/cake-1.jpg",
       "name": "Blueberry Crumb Cake",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "price": 10000.0
+      "price": 10000
     }
   ]
 }
