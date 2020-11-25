@@ -3,7 +3,7 @@
     <AppBanner :img="page.img" :title="page.title" />
 
     <b-container class="mx-auto py-5">
-position      <div class="d-flex flex-column align-items-center mx-auto">
+      <div class="d-flex flex-column align-items-center mx-auto">
         <nuxt-content :document="page" class="mb-5" />
 
         <p class="mb-0 w-100">
