@@ -11,15 +11,22 @@
       "type": "yoghurt",
       "img": "/img/cake-1.jpg",
       "name": "Strawberry Yoghurt Drink",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "price": 10000.0
+      "description": "Fresh Liquid yoghurt combines with strawberry juice will make your day happier",
+      "price": 10000
     },
     {
       "type": "yoghurt",
       "img": "/img/cake-1.jpg",
       "name": "Mango Yoghurt Drink",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "price": 10000.0
+      "description": "Fresh Liquid yoghurt combines with mango juice will refresh your day ",
+      "price": 10000
+    },
+    {
+      "type": "yoghurt",
+      "name": "Plain Yoghurt Drink",
+      "description": "The simple plain yoghurt will make your body healthier",
+      "price": 10000,
+      "img": "/img/about-us.jpg"
     }
   ]
 }
