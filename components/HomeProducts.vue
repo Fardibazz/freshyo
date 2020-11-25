@@ -1,7 +1,7 @@
 <template>
   <b-container fluid class="d-flex justify-content-center py-5">
     <b-container class="mx-auto">
-      <b-row>
+      <b-row class="align-items-center">
         <b-col class="p-0 pic" data-aos="fade-up-left" lg="6">
           <div
             v-for="(item, index) in page.homeProducts.productsShowcase"
@@ -12,7 +12,7 @@
           </div>
         </b-col>
 
-        <b-col class="text-center" data-aos="fade-up-right" lg="6">
+        <b-col class="px-lg-5 text-center" data-aos="fade-up-right" lg="6">
           <AppTitle
             :cursive="page.homeProducts.cursive"
             :img="page.homeProducts.img"
@@ -46,6 +46,10 @@ export default {
 <style lang="scss" scoped>
 .img-wrapper {
   max-height: 250px;
+
+  @media (min-width: 992px) {
+    max-height: 200px;
+  }
 }
 
 .pic {

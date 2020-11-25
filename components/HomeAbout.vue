@@ -1,8 +1,8 @@
 <template>
   <b-container fluid class="py-5 d-flex justify-content-center">
     <b-container class="mx-auto">
-      <b-row>
-        <b-col class="text-center" data-aos="fade-left" lg="6">
+      <b-row class="align-items-center">
+        <b-col class="px-lg-5 text-center" data-aos="fade-left" lg="6">
           <AppTitle
             :cursive="page.homeAbout.cursive"
             :text="page.homeAbout.title"

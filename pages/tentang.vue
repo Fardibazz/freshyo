@@ -9,7 +9,7 @@
     <b-container class="py-5" data-aos="fade-up">
       <h3
         :id="page.part1.id"
-        class="font-weight-bold h5 mb-4 mx-auto text-center text-uppercase"
+        class="font-weight-bold h5 mb-5 mx-auto text-center text-uppercase"
       >
         {{ page.part1.title }}
       </h3>
@@ -41,7 +41,7 @@
     >
       <h3
         :id="page.part2.id"
-        class="font-weight-bold h5 mb-4 mx-auto text-center text-uppercase"
+        class="font-weight-bold h5 mb-5 mx-auto text-center text-uppercase"
       >
         {{ page.part2.title }}
       </h3>
@@ -83,6 +83,7 @@ export default {
 
 <style scoped>
 .img-wrapper {
-  max-height: 250px;
+  height: 250px;
+  width: 250px;
 }
 </style>

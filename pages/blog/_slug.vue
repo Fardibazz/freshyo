@@ -3,15 +3,15 @@
     <AppBanner :img="page.img" :title="page.title" />
 
     <b-container class="mx-auto py-5">
-      <p class="align-items-center d-flex">
-        <nuxt-link to="/blog">
-          <ChevronLeftIcon />
-          Kembali ke daftar artikel
-        </nuxt-link>
-      </p>
+position      <div class="d-flex flex-column align-items-center mx-auto">
+        <nuxt-content :document="page" class="mb-5" />
 
-      <div class="d-flex flex-column align-items-center mx-auto">
-        <nuxt-content :document="page" />
+        <p class="mb-0 w-100">
+          <nuxt-link to="/blog">
+            <ChevronLeftIcon />
+            Lihat artikel lain
+          </nuxt-link>
+        </p>
       </div>
     </b-container>
   </div>

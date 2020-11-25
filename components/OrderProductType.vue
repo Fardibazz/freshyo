@@ -1,6 +1,6 @@
 <template>
   <b-container v-if="page.orderUrl">
-    <h3 class="font-weight-bold h5 mb-4 text-center text-uppercase">
+    <h3 class="font-weight-bold h5 mb-4 mx-auto text-center text-uppercase">
       {{ label }}
     </h3>
 

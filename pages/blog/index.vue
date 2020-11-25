@@ -6,7 +6,7 @@
       :title="banner.title"
     />
 
-    <b-container class="mx-auto pt-5">
+    <b-container class="align-items-center d-flex flex-column mx-auto pt-5">
       <p class="mb-5">
         {{ page.intro }}
       </p>
