@@ -1,5 +1,5 @@
 ---
-title: Apa itu susu?
+title: Susu
 img: /img/y.jpg
 ---
 
