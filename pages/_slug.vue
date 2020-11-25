@@ -2,7 +2,7 @@
   <div class="mh-100">
     <AppBanner :img="page.img" :title="page.title" />
 
-    <b-container class="mx-auto py-5">
+    <b-container class="d-flex flex-column align-items-center mx-auto py-5">
       <nuxt-content :document="page" />
     </b-container>
   </div>
