@@ -1,5 +1,5 @@
 ---
-title: Susu
+title: "Susu "
 img: /img/y.jpg
 ---
 
