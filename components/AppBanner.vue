@@ -1,6 +1,8 @@
 <template>
   <b-container
-    :style="{ backgroundImage: `url(${img})` }"
+    :style="{
+      backgroundImage: `linear-gradient(0deg, rgba(49, 51, 50, 0.5), rgba(0, 0, 0, 0.5)), url(${img})`
+    }"
     fluid
     class="align-items-center d-flex flex-column justify-content-center mh-50 parallax py-5"
   >
