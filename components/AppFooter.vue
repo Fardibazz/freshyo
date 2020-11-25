@@ -13,27 +13,20 @@
     <b-container fluid class="bg-black pb-4 pt-5 text-white">
       <b-container class="my-3 mx-auto" data-aos="flip-down">
         <b-row>
-          <b-col sm="6">
+          <b-col sm="8" md="6">
             <h3 class="h6 mb-3 mb-sm-4 text-capitalize">
               {{ footer.locationsLabel }}
             </h3>
 
-            <b-row>
-              <b-col
-                v-for="(item, index) in footer.locations"
-                :key="index"
-                class="mb-2"
-                lg="6"
-              >
-                <p class="mb-0">
-                  {{ item.address }}<br />
-                  {{ item.city }}
-                </p>
-              </b-col>
-            </b-row>
+            <div class="mb-2">
+              <p class="mb-0">
+                {{ footer.locations[0].address }}<br />
+                {{ footer.locations[0].city }}
+              </p>
+            </div>
           </b-col>
 
-          <b-col sm="6">
+          <b-col sm="4" md="6">
             <h3 class="h6 mb-3 mb-sm-4 mt-3 mt-sm-0 text-capitalize">
               {{ footer.hoursLabel }}
             </h3>
