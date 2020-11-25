@@ -57,6 +57,14 @@ collections:
               - { name: title, widget: string, required: false }
               - { name: img, widget: image }
 
+          - name: blogBanner
+            label: Blog Banner
+            widget: object
+            fields:
+              - { name: cursive, widget: string }
+              - { name: title, widget: string }
+              - { name: img, widget: image }
+
           - name: contactBanner
             label: Contact Banner
             widget: object
@@ -256,6 +264,12 @@ collections:
                 fields:
                   - { name: title, widget: string }
                   - { name: body, widget: text }
+
+      - name: blog
+        label: Blog Page
+        file: content/pages/blog.json
+        fields:
+          - { name: intro, widget: text }
 
       - name: contact
         label: Contact Page

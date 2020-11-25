@@ -36,6 +36,12 @@
     }
   ],
 
+  "blogBanner": {
+    "cursive": "Baca",
+    "title": "Blog",
+    "img": "/img/contact.jpg"
+  },
+
   "contactBanner": {
     "cursive": "Easy",
     "title": "Contact",
