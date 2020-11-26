@@ -3,7 +3,7 @@
     "cursive": "Welcome",
     "title": "FRESH YO",
     "subtitle": "Yoghurt Drink Homemade",
-    "img": "/img/y.jpg"
+    "img": "/img/y2.jpg"
   },
   "homeAbout": {
     "cursive": "Hello",
@@ -42,10 +42,10 @@
     "to": "/tentang#bahan",
     "orderShowcase": [
       {
-        "img": "/img/straw.png"
+        "img": "/img/straww.jpg"
       },
       {
-        "img": "/img/mango.jfif"
+        "img": "/img/mang.jpg"
       }
     ]
   },
@@ -57,14 +57,19 @@
     "to": "/beli",
     "testimoniesShowcase": [
       {
-        "title": "Sehat dan segar!",
-        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        "img": "/img/cake-1.jpg"
+        "title": "Homemade dan Buah asli",
+        "text": "Yoghurt homemade minuman sehat, terdapat buah asli yang membuat rasanya lebih segar",
+        "img": "/img/testi.jpg"
       },
       {
-        "title": "Enak dan bermanfaat!",
-        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        "img": "/img/cake-2.jpg"
+        "title": "Sehat dan Segar",
+        "text": "Minuman sehat diminum dingin lebih segar",
+        "img": "/img/testi2.jpg"
+      },
+      {
+        "title": "Segar dan Unik ",
+        "text": "Memiliki rasa yang segar dan unik",
+        "img": "/img/testi3.jpg"
       }
     ]
   }
