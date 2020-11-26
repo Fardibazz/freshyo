@@ -3,26 +3,24 @@
     {
       "cursive": "Tiny heroes",
       "title": "Big impact",
-      "img": "/img/recipes.jpg"
+      "img": "/img/y1.jpg"
     },
     {
-      "cursive": "Real food",
+      "cursive": "Real drink",
       "title": "For real",
-      "img": "/img/blend.jpg"
+      "img": "/img/y2.jpg"
     },
     {
       "cursive": "Genuinely",
       "title": "Good",
-      "img": "/img/about-us.jpg"
+      "img": "/img/y5.jpg"
     }
   ],
-
   "orderBanner": {
     "cursive": "Delightful",
     "title": "Products",
-    "img": "/img/order.jpg"
+    "img": "/img/fy4.jpg"
   },
-
   "aboutBanner": [
     {
       "cursive": "Discover",
@@ -35,19 +33,16 @@
       "img": "/img/bakery.jpg"
     }
   ],
-
   "blogBanner": {
     "cursive": "Baca",
     "title": "Blog",
-    "img": "/img/contact.jpg"
+    "img": "/img/whatsapp-image-2020-11-24-at-11.14.48.jpeg"
   },
-
   "contactBanner": {
     "cursive": "Easy",
     "title": "Contact",
-    "img": "/img/contact.jpg"
+    "img": "/img/fresh-yo-all.png"
   },
-
   "sentBanner": {
     "cursive": "Message",
     "title": "Sent",
