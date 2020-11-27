@@ -1,6 +1,6 @@
 ---
 title: Yoghurt
-img: /img/whatsapp-image-2020-11-11-at-15.32.01-2-.jpeg
+img: /img/yoy3.jpg
 ---
 <!--\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
