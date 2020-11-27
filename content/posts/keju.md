@@ -2,14 +2,14 @@
 title: Keju
 img: /img/whatsapp-image-2020-11-24-at-11.14.49.jpeg
 ---
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:RelyOnVML/>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -48,9 +48,9 @@ img: /img/whatsapp-image-2020-11-24-at-11.14.49.jpeg
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -629,9 +629,9 @@ img: /img/whatsapp-image-2020-11-24-at-11.14.49.jpeg
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 10]>
+<!--\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -658,21 +658,29 @@ img: /img/whatsapp-image-2020-11-24-at-11.14.49.jpeg
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\[endif]-->
+<!\\[endif]-->
 
 <!--StartFragment-->
 
-Pasti anda sudah sangat tidak asing dengan istilah ‘keju’ namun apakah anda tahu keju itu terbuat dari apasih?
+## Pasti anda sudah sangat tidak asing dengan istilah ‘keju’ namun apakah anda tahu keju itu terbuat dari apasih?
 
-Keju merupakan salah satu produk susu yang bergizi tinggi yang dihasilkan dari proses penggumpalan protein pada susu karena koagulasi protein susu dari ternak ruminansia, oleh reaksi enzim rennin atau enzim proteolitik lainnya, dalam kondisi asam oleh adanya asam laktat hasil kerja dari bakteri asam laktat yang ditambahkan. Penggunaan enzim rennet umumnya diperoleh dari ambung anak sapi yang masih menyusui pada induknya , dimana ketersediaannya semakin terbatas sehingga perlu disiasati dengan melihat potensi ternak ruminansia lain, salah satunya adalah ternak kambing.
+Keju merupakan salah satu produk susu yang bergizi tinggi yang dihasilkan dari proses penggumpalan protein pada susu karena koagulasi protein susu dari ternak ruminansia, oleh reaksi enzim rennin atau enzim proteolitik lainnya, dalam kondisi asam oleh adanya asam laktat hasil kerja dari bakteri asam laktat yang ditambahkan. 
+
+Penggunaan enzim rennet umumnya diperoleh dari ambung anak sapi yang masih menyusui pada induknya , dimana ketersediaannya semakin terbatas sehingga perlu disiasati dengan melihat potensi ternak ruminansia lain, salah satunya adalah ternak kambing.
 
 Rennet merupakan penggumpal kasein pada proses pembuatan keju yang di dalamnya mengandung enzim protease rennin. Enzim rennet yang digunakan merupakan enzim yang bersifat proteolitik yang dapat menggumpalkan susu pada proses awal pembuatan keju. Bakteri asam laktat yang sering digunakan pada industri keju adalah jenis Lactobacillus lactis. 
 
-Bakteri Lactobacillus plantarum YN 1.3 adalah bakteri yang diisolasi dari susu kambing secara spontan, mempunyai sifat proteolitik, mempunyai kemampuan memfermentasi laktosa yang dapat menurunkan pH susu selama proses fermentasi berlangsung dan dapat sebagai starter komersial pada industri. Bakteri ini dapat digunakan dalam pembuatan yoghurt dan hasilnya sangat baik. Keju yang berkualitas dapat dinilai dari warna, aroma, tekstur dan citarasa.
+Bakteri Lactobacillus plantarum YN 1.3 adalah bakteri yang diisolasi dari susu kambing secara spontan, mempunyai sifat proteolitik, mempunyai kemampuan memfermentasi laktosa yang dapat menurunkan pH susu selama proses fermentasi berlangsung dan dapat sebagai starter komersial pada industri.
 
-Keju yang dibuat dari susu sapi tanpa pewarna akan menghasilkan keju yang berwarna putih kekuning-kuningan karena adanya pigmen karoten yang larut didalam lemak susu. Peranan utama bakteri dalam fermentasi keju yaitu untuk memulai fermentasi dengan produksi asam dari proses metabolismenya, menyebabkan koagulasi protein yang dapat menghambat pertumbuhan bakteri pathogen. 
+ Bakteri ini dapat digunakan dalam pembuatan yoghurt dan hasilnya sangat baik. Keju yang berkualitas dapat dinilai dari warna, aroma, tekstur dan citarasa.
 
-Produksi asam laktat dapat menimbulkan aroma khas pada keju dan juga bisa memberi pengaruh terhadap pembentukan tekstur selama pembuatan curd. Ketika memilih keju, perhatikan dengan baik apakah teksturnya sudah sesuai dengan jenisnya. Jika tidak sesuai, misalnya keju edam bertektsur lembut, bisa jadi kualitas keju tersebut sudah tidak bagus lagi. Hasil penelitian Chin and Rosenberg (1997) menunjukkan bahwa keju Cheddar yang dibuat dari susu dengan lemak penuh dan susu dengan lemak rendah mempunyai perbedaan dalam menghasilkan komponen citarasa.
+Keju yang dibuat dari susu sapi tanpa pewarna akan menghasilkan keju yang berwarna putih kekuning-kuningan karena adanya pigmen karoten yang larut didalam lemak susu. 
+
+Peranan utama bakteri dalam fermentasi keju yaitu untuk memulai fermentasi dengan produksi asam dari proses metabolismenya, menyebabkan koagulasi protein yang dapat menghambat pertumbuhan bakteri pathogen. 
+
+Produksi asam laktat dapat menimbulkan aroma khas pada keju dan juga bisa memberi pengaruh terhadap pembentukan tekstur selama pembuatan curd. Ketika memilih keju, perhatikan dengan baik apakah teksturnya sudah sesuai dengan jenisnya. 
+
+Jika tidak sesuai, misalnya keju edam bertektsur lembut, bisa jadi kualitas keju tersebut sudah tidak bagus lagi. Hasil penelitian Chin and Rosenberg (1997) menunjukkan bahwa keju Cheddar yang dibuat dari susu dengan lemak penuh dan susu dengan lemak rendah mempunyai perbedaan dalam menghasilkan komponen citarasa.
 
 <!--EndFragment-->
 
@@ -692,14 +700,14 @@ Source:
 
 Nisa, Chairun, Trioso Purnawarman, Ita Djuwita, dan Chsnul Choliq. 2009. Produksi dan Uji Biologis Rennet dari Abomasum Domba Lokal sebagai Bahan Bioaktif dalam Pembuatan Keju. Fakultas Kedokteran Hewan IPB. Bogor.
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:RelyOnVML/>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -738,9 +746,9 @@ Nisa, Chairun, Trioso Purnawarman, Ita Djuwita, dan Chsnul Choliq. 2009. Produks
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -1319,9 +1327,9 @@ Nisa, Chairun, Trioso Purnawarman, Ita Djuwita, dan Chsnul Choliq. 2009. Produks
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 10]>
+<!--\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -1348,7 +1356,7 @@ Nisa, Chairun, Trioso Purnawarman, Ita Djuwita, dan Chsnul Choliq. 2009. Produks
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\[endif]-->
+<!\\[endif]-->
 
 <!--StartFragment-->
 
