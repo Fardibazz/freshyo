@@ -1,6 +1,6 @@
 ---
 title: "Susu "
-img: /img/y.jpg
+img: /img/milk.jpg
 ---
 
 Susu merupakan cairan berwarna putih yang memiliki gizi tinggi, rasa sedikit manis serta memiliki aroma yang khas. Komposisi kimia yang terkandung pada susu antara lain lemak 3,8%, protein 3,2%, laktosa 4,7%, abu 0,855, air 87,25%, serta bahan kering 12,75%.
