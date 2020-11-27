@@ -2,14 +2,14 @@
 title: Mentega
 img: /img/whatsapp-image-2020-11-24-at-11.14.50.jpeg
 ---
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:RelyOnVML/>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -48,9 +48,9 @@ img: /img/whatsapp-image-2020-11-24-at-11.14.50.jpeg
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -629,9 +629,9 @@ img: /img/whatsapp-image-2020-11-24-at-11.14.50.jpeg
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 10]>
+<!--\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -658,7 +658,7 @@ img: /img/whatsapp-image-2020-11-24-at-11.14.50.jpeg
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\[endif]-->
+<!\\[endif]-->
 
 <!--StartFragment-->
 
@@ -666,19 +666,21 @@ Mentega merupakan emulsi air dalam lemak dengan kira-kira 18% air tersebar rata 
 
 Mentega biasanya memiliki warna kuning pucat namun kadang dijumpai juga mentega yang berwarna kuning tua. Warna mentega tersebut tergantung dari pakan yang dikonsumsi ternak yang susunya digunakan sebagai bahan baku pembuatan mentega.
 
-Titik leleh mentega cukup rendah, antara 33-35 **°C**  sehingga efek pemakaian mentega pada rich biscuit akan menghasilkan adonan lebih lembek dan mudah melebar jika dipanggang karena sifat mentega kurang plastisin dibandingkan margarin. Oleh karena itu umumnya jika seseorang akan membuat kue atau cookies maka ia akan menggunakan mentega/butter agar memiliki aroma yang sangat enak.
+Titik leleh mentega cukup rendah, antara 33-35 **°C**  sehingga efek pemakaian mentega pada rich biscuit akan menghasilkan adonan lebih lembek dan mudah melebar jika dipanggang karena sifat mentega kurang plastisin dibandingkan margarin. 
+
+Oleh karena itu umumnya jika seseorang akan membuat kue atau cookies maka ia akan menggunakan mentega/butter agar memiliki aroma yang sangat enak.
 
 kemudian apakah anda tahu mentega dan margarin itu berbeda?
 
-Bahan pembuat kedua produk tersebut berbeda, margarin adalah produk non-dairy yang dibuat sebagai pengganti mentega. margarin dibuat dari campuran minyak sayur, air, garam dan emulsifier. Dalam proses pembuatannya akan terjadi perubahan struktur beberapa asam lemak tak jenuh menjadi trans-fatty acids. Lemak jenis trans fetty acids memiliki karakter serupa dengan lemak jenuh. Asam lemak trans sering dikaitkan dengan risiko tekanan darah tinggi. 
+Bahan pembuat kedua produk tersebut berbeda, margarin adalah produk non-dairy yang dibuat sebagai pengganti mentega. margarin dibuat dari campuran minyak sayur, air, garam dan emulsifier. 
+
+Dalam proses pembuatannya akan terjadi perubahan struktur beberapa asam lemak tak jenuh menjadi trans-fatty acids. Lemak jenis trans fetty acids memiliki karakter serupa dengan lemak jenuh. Asam lemak trans sering dikaitkan dengan risiko tekanan darah tinggi. 
 
 Margarin biasanya juga diperkaya dengan vitamin A dan minyak sayur yang mengandung vitamin E. Karena mengandung lebih sedikit lemak, margarin banyak digunakan sebagai pengganti mentega. Tekstur margarin akan lebih padat bila berada di suhu ruang daripada mentega.
 
-<!--\[if !supportLineBreakNewLine]-->
+<!--\\[if !supportLineBreakNewLine]-->
 
-
-
-<!--\[endif]-->
+<!--\\[endif]-->
 
 <!--EndFragment-->
 
