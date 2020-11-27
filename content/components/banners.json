@@ -13,7 +13,7 @@
     {
       "cursive": "Genuinely",
       "title": "Good",
-      "img": "/img/y5.jpg"
+      "img": "/img/yoy.jpg"
     }
   ],
   "orderBanner": {
@@ -46,6 +46,6 @@
   "sentBanner": {
     "cursive": "Message",
     "title": "Sent",
-    "img": "/img/sent.jpg"
+    "img": "/img/yoy1.jpg"
   }
 }
