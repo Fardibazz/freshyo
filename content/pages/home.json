@@ -21,16 +21,16 @@
     "to": "/tentang#proses",
     "productsShowcase": [
       {
-        "img": "/img/whatsapp-image-2020-11-24-at-11.14.49.jpeg"
+        "img": "/img/milk2.jpg"
       },
       {
-        "img": "/img/whatsapp-image-2020-11-24-at-11.14.50.jpeg"
+        "img": "/img/stroberi.jpg"
       },
       {
-        "img": "/img/whatsapp-image-2020-11-24-at-11.14.48.jpeg"
+        "img": "/img/1c166c29-061b-40d4-ba14-90378e81dcaf-ec3c17ff-6263-44a9-b376-925a7f9f442e.jpg"
       },
       {
-        "img": "/img/y.jpg"
+        "img": "/img/fy.jpg"
       }
     ]
   },
@@ -57,17 +57,17 @@
     "to": "/beli",
     "testimoniesShowcase": [
       {
-        "title": "Homemade dan Buah asli",
+        "title": "Homemade dan Buah asli -Arif-",
         "text": "Yoghurt homemade minuman sehat, terdapat buah asli yang membuat rasanya lebih segar",
         "img": "/img/testi.jpg"
       },
       {
-        "title": "Sehat dan Segar",
+        "title": "Sehat dan Segar -Ridho-",
         "text": "Minuman sehat diminum dingin lebih segar",
         "img": "/img/testi2.jpg"
       },
       {
-        "title": "Segar dan Unik ",
+        "title": "Segar dan Unik -Hadi-",
         "text": "Memiliki rasa yang segar dan unik",
         "img": "/img/testi3.jpg"
       }
