@@ -2,7 +2,6 @@
 title: Produk Susu
 img: /img/whatsapp-image-2020-11-24-at-11.14.48.jpeg
 ---
-
 # Produk susu secara umum diartikan sebagai produk makanan yang dihasilkan dari susu.
 
 Keju, yoghurt dan mentega telah lama dikenal memberikan nutrisi yang baik. Susu mengandung protein, mineral, vitamin, dan asam lemak.
