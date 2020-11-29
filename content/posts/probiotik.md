@@ -27,7 +27,7 @@ Banyak publikasi yang menunjukkan bahwa _Lactobacillus acidophilus_ menghasilkan
 
 Selanjutnya spesies _Lactobacillus casei_ merupakan bakteri probiotik yang telah lama digunakan dalam susu fermentasi seperti pada produk Yakult, 16 Jurnal Kesehatan, ISSN 1979-7621, Vol. 4, No. 1, Juni 2011: 14-20 Jepang. _Lactobacillus casei_ membantu membatasi pertumbuhan bakteri patogen dalam usus.
 
-Spesies Bifidobacterium juga mempunyai beragam manfaat seperti _Bifidobacterium bifidum_ yang ditemukan dalam jumlah besar di usus dan mukosa vagina. _Bifidobacterium bifidum_ mencegah perkembangbiakan E. coli, salmonella dan clostridium.
+Spesies Bifidobacterium juga mempunyai beragam manfaat seperti _Bifidobacterium bifidum_ yang ditemukan dalam jumlah besar di usus dan mukosa vagina. _Bifidobacterium bifidum_ mencegah perkembangbiakan _E. coli_, _salmonella_ dan _clostridium_.
 
 Bakteri ini juga memproduksi asam laktat dan asam asetat yang menurunkan pH usus dan mencegah pertumbuhan bakteri patogen. Hasil penelitian menunjukkan bahwa organisme ini juga merangsang penyerapan mineral seperti besi , kalsium, magnesium, dan seng.
 
