@@ -2,12 +2,12 @@
   "part1": {
     "id": "proses",
     "title": " Ketika susu menjadi yoghurt",
-    "body": "Sangat sederhana membuat yoghurt homade.\nKami memanaskan susu lalu mendiamkannya hingga suhunya turun kemudian memasukan bibit yoghurt komersial ke dalam susu lalu mencampurkannya hingga homogen. Setelah itu pindahkan susu tadi kedalam toples kaca tutup rapat dan simpan ditempat yang tidak akan ada pergeseran selama 18 jam. Setelah semua rangkaian proses selesai yoghurt siap dikemas dan diberi jus dari buah-buah asli pilihan kami.\n"
+    "body": "Membuat yoghurt homemade sangatlah sederhana.\nKami memanaskan susu lalu mendiamkannya untuk menurunkan temperaturnya, sebelum memasukkan bibit yoghurt komersial. Susu dan bibit tersebut dicampur hingga homogen lalu campurannya dimasukkan kedalam toples kaca yang tertutup rapat. Toples diatur agar tidak akan tergeser selama 18 jam waktu penyimpanannya. Setelah itu, yoghurt siap dikemas dan ditambah jus dari buah-buah asli pilihan kami.\n"
   },
   "quote": {
     "img": "/img/2018-11-05-10.14.16-1.jpg",
     "body": "Here we want to share with you our passion for good quality yoghurt",
-    "name": "Farah Diba"
+    "name": "Farah Diba 'Izzati"
   },
   "part2": {
     "id": "bahan",
@@ -15,19 +15,19 @@
     "ingredients": [
       {
         "title": "Susu UHT",
-        "body": "Susu kami berasal dari susu UHT komersial dimana hanya dipanaskan dalam waktu 2-5 detik dengan suhu minimal 135°C sehingga aroma, rasa dan warna relative tidak berubah dari susu segarnya. "
+        "body": "Susu kami berasal dari susu UHT komersial dimana hanya dipanaskan selama 2-5 detik dengan suhu minimal 135°C sehingga aroma, rasa dan warna relatif tidak berubah dari susu segarnya. "
       },
       {
         "title": "Buah asli",
-        "body": "Tidak ada yang mengalahkan buah asli!\nItulah kenapa kami hanya menggunakan stroberi dan manga asli untuk produk FRESH YO kami. Anda akan merasakan  authentic taste termasuk vitamin dan mineral \n"
+        "body": "Tidak ada yang mengalahkan buah asli!\nItulah kenapa kami hanya menggunakan stroberi dan manga asli untuk produk FRESH YO. Anda akan merasakan rasa otentik, dan manfaat penuh vitamin dan mineralnya."
       },
       {
         "title": "Pemanis alami",
-        "body": "Rasa buah asli sangat enak\nKami tidak mempermanis produk kami secara berlebihan, karena kami ingin Anda mencicipi bahan-bahan asli yang membuat FRESHYO begitu unik dan lezat! \nBegitulah seharusnya rasa yoghurt \nDengan sangat hati-hati kami mempermanis produk dengan hanya satu sentuhan, sehingga rasa buah aslinya muncul. Kami hanya menggunakan stevia sebagai pemanis alami FRESH YO\n"
+        "body": "Kami tidak mempermanis produk kami secara berlebihan. Kami hanya menggunakan pemanis alami stevia karena kami ingin Anda mencicipi rasa buah asli yang membuat FRESH YO begitu unik dan lezat!\nBegitulah seharusnya rasa yoghurt."
       },
       {
         "title": "Hanya bahan alami",
-        "body": "Tidak ada yang namanya kesehatan buatan, jadi mengapa menggunakan bahan buatan?\nKami menjadikan FRESH YO  bebas pengawet dan tidak pernah menggunakan pewarna buatan"
+        "body": "Tidak ada yang namanya kesehatan buatan, jadi mengapa menggunakan bahan buatan?\nKami menjadikan FRESH YO  bebas pengawet dan tidak pernah menggunakan pewarna buatan."
       }
     ]
   }
