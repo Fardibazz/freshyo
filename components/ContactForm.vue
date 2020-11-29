@@ -2,7 +2,7 @@
   <div class="mb-5" data-aos="fade-up-left">
     <h2 class="mb-3 mb-lg-4">{{ page.intro }}</h2>
 
-    <b-form :action="`https://formspree.io/${page.email}`" method="POST">
+    <b-form action="/terkirim" data-netlify="true" method="POST" name="Kontak">
       <b-form-group>
         <b-form-input
           id="name"
@@ -31,10 +31,6 @@
           rows="3"
         />
       </b-form-group>
-
-      <input name="_subject" type="hidden" value="Farah - Contact" />
-
-      <input :value="page.sentUrl" name="_next" type="hidden" />
 
       <b-button block class="text-white" type="submit" variant="primary">
         <SendIcon />
