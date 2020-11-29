@@ -77,16 +77,6 @@ export default {
   letter-spacing: 0.25rem;
 }
 
-.img-wrapper {
-  @media (min-width: 768px) {
-    max-height: 250px;
-  }
-
-  @media (min-width: 992px) {
-    max-height: 350px;
-  }
-}
-
 .wrapper {
   @media (min-width: 768px) {
     column-gap: 2.5rem;
