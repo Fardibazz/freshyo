@@ -71,7 +71,12 @@ export default {
   overflow: visible;
 
   &::after {
-    background: #17120c;
+    background: #0b0707;
+
+    @media (min-width: 1200px) {
+      background: #494339;
+    }
+
     content: "*";
     display: inline-block;
     font-size: 1.5rem;
