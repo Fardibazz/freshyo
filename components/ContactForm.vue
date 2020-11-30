@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-5" data-aos="fade-up-left">
+  <div class="mb-5">
     <h2 class="mb-3 mb-lg-4">{{ page.intro }}</h2>
 
     <b-form action="/terkirim" data-netlify="true" method="POST" name="Kontak">

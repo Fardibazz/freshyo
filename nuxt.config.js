@@ -30,7 +30,7 @@ export default {
     "./assets/hover.css"
   ],
 
-  plugins: ["@/plugins/aos.client", "@/plugins/vue-lazyload"],
+  plugins: ["@/plugins/vue-lazyload"],
 
   components: true,
 

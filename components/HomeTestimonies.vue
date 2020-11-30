@@ -2,7 +2,7 @@
   <b-container fluid class="d-flex justify-content-center py-5 mb-5">
     <b-container class="mx-auto">
       <b-row class="align-items-center">
-        <b-col class="p-0" data-aos="fade-up-left" lg="6">
+        <b-col class="p-0" lg="6">
           <b-carousel
             id="carousel-1"
             :interval="5000"
@@ -23,7 +23,7 @@
           </b-carousel>
         </b-col>
 
-        <b-col class="px-lg-5 text-center" data-aos="fade-up-right" lg="6">
+        <b-col class="px-lg-5 text-center" lg="6">
           <AppTitle
             :cursive="page.homeTestimonies.cursive"
             :img="page.homeTestimonies.img"

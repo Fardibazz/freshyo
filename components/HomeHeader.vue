@@ -6,12 +6,7 @@
     class="mh-100"
     fluid
   >
-    <b-container
-      class="text-center"
-      data-aos-delay="400"
-      data-aos-duration="800"
-      data-aos="fade-up"
-    >
+    <b-container class="text-center">
       <AppTitle :cursive="page.header.cursive" :text="page.header.title" />
 
       <hr class="border-white hr text-primary" />

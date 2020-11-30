@@ -6,7 +6,7 @@
       :title="banner[0].title"
     />
 
-    <b-container class="py-5" data-aos="fade-up">
+    <b-container class="py-5">
       <h3
         :id="page.part1.id"
         class="font-weight-bold h5 mb-5 mx-auto text-center text-uppercase"
@@ -17,10 +17,7 @@
       <p class="mb-0 mx-auto">{{ page.part1.body }}</p>
     </b-container>
 
-    <b-container
-      class="align-items-center d-flex flex-column pb-5"
-      data-aos="fade-down"
-    >
+    <b-container class="align-items-center d-flex flex-column pb-5">
       <div class="img-wrapper mb-3 mx-auto rounded-circle">
         <b-img fluid :src="page.quote.img" alt="Owner" class="hvr-grow" />
       </div>
@@ -35,10 +32,7 @@
 
     <AppBanner empty :img="banner[1].img" />
 
-    <b-container
-      class="d-flex flex-column align-items-center py-5"
-      data-aos="fade-left"
-    >
+    <b-container class="d-flex flex-column align-items-center py-5">
       <h3
         :id="page.part2.id"
         class="font-weight-bold h5 mb-5 mx-auto text-center text-uppercase"

@@ -2,7 +2,7 @@
   <div id="top" class="d-flex flex-column mh-100">
     <AppNav />
 
-    <nuxt keep-alive data-aos="fade" />
+    <nuxt keep-alive />
 
     <AppFooter />
   </div>

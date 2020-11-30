@@ -14,7 +14,6 @@
         :page="page"
         :type="item.type"
         :label="item.label"
-        data-aos="flip-left"
       />
 
       <div id="snipcart" hidden :data-api-key="apiKey"></div>
