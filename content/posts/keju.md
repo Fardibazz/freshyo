@@ -25,10 +25,10 @@ Jika tidak sesuai, misalnya keju edam bertektsur lembut, bisa jadi kualitas keju
 
 Sumber:
 
+- Hutagalung, T. M., Yelnetty, A., Tamasoleng, M., dan Ponsto, J. H. W. (2017): Penggunaan Enzim Rennet Dan Bakteri Lactobacillus Plantarum Yn 1.3 terhadap Sifat Sensoris Keju, Jurnal Zootek, 37, 286-293.
+
+- Nisa, C., Purnawarman, T., Djuwita, I., dan Choliq, C. (2009): Produksi dan Uji Biologis Rennet dari Abomasum Domba Lokal sebagai Bahan Bioaktif dalam Pembuatan Keju, Prosiding Seminar Hasil-Hasil Penelitian IPB.
+
 - [Nilai gizi KEJU dan Komponen cita rasa keju | FEIN, FOOD ENERGY INFO (wordpress.com)](https://simonbwidjanarko.wordpress.com/2008/06/11/nilai-gizi-keju-dan-komponen-cita-rasa-keju/)
 
 - [Ternyata Begini Cara Memilih Keju yang Baik | Endeus.TV](https://endeus.tv/artikel/ternyata-begini-cara-memilih-keju-yang-baik)
-
-- Nisa, Chairun, Trioso Purnawarman, Ita Djuwita, dan Chsnul Choliq. 2009. Produksi dan Uji Biologis Rennet dari Abomasum Domba Lokal sebagai Bahan Bioaktif dalam Pembuatan Keju. Fakultas Kedokteran Hewan IPB. Bogor.
-
-- Truly M. Hutagalung, A. Yelnetty\*, M. Tamasoleng, J. H. W. Ponto. 2017. Penggunaan Enzim Rennet Dan Bakteri Lactobacillus Plantarum Yn 1.3 Terhadap Sifat Sensoris Keju Jurnal Zootek (“Zootek” Journal ) Vol. 37 No. 2 : 286 - 293 (Juli 2017) ISSN 0852 -2626

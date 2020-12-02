@@ -41,4 +41,4 @@ Konsentrasi IgA meningkat pada anak-anak yang diberikan perlakuan dibanding yang
 
 Sumber:
 
-- Endang Nur Widiyaningsih 2011. Peran Probiotik Untuk Kesehatan. Jurnal Kesehatan, ISSN 1979-7621, Vol. 4, No. 1, Juni 2011: 14-20
+- Widiyaningsih, E. N. (2011): Peran Probiotik untuk Kesehatan. Jurnal Kesehatan, 4, 14-20.

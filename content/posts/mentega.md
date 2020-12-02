@@ -21,8 +21,8 @@ Margarin biasanya juga diperkaya dengan vitamin A dan minyak sayur yang mengandu
 
 Sumber:
 
-- [Perbedaan Mentega dan Margarin untuk Bikin Kue dan Masakan Halaman all - Kompas.com](https://www.kompas.com/food/read/2020/07/24/211200875/perbedaan-mentega-dan-margarin-untuk-bikin-kue-dan-masakan?page=all)
+- Sintia, N. A. dan Astuti, N.: Pengaruh Subtitusi Tepung Beras Merah dan Proporsi Lemak (Margarin dan Mentega) terhadap Mutu Organoleptik Rich Biscuit, Universitas Negeri Surabaya.
 
 - [Mentega, Margarin, dan Butter, Serupa tapi tak Sama - LPPM IPB](https://lppm.ipb.ac.id/mentega-margarin-butter-serupa-tapi-tak-sama/)
 
-- Novi April Sintia Pengaruh Subtitusi Tepung Beras Merah Dan Proporsi Lemak (Margarin Dan Mentega) Terhadap Mutu Organoleptik Rich Biscuit Pendidikan Tata Boga, Fakultas Teknik, Universitas Negeri Surabaya
+- [Perbedaan Mentega dan Margarin untuk Bikin Kue dan Masakan Halaman all - Kompas.com](https://www.kompas.com/food/read/2020/07/24/211200875/perbedaan-mentega-dan-margarin-untuk-bikin-kue-dan-masakan?page=all)

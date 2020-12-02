@@ -11,6 +11,6 @@ Selama fermentasi akan terbentuk asam-asam organik yang menimbulkan citarasa kha
 
 Sumber:
 
-- Wakhidah, Nur., M, Jati, Godras., Utami, Rohula. 2017. Yoghurt Susu Sapi Segar dengan Penambahan Ekstrak Ampas Jahe dari Destilasi Minyak Atsiri. Proceeding Biology Education Conference Volume 14, Nomor 1 Halaman 278-284
+- Wakhidah, N., Manuhara, G. J., dan Utami, R. (2017): Yoghurt Susu Sapi Segar dengan Penambahan Ekstrak Ampas Jahe dari Destilasi Minyak Atsiri, Proceeding Biology Education Conference, 14, 278-284.
 
-- Syainah, E,. Novita, Sari. Yanti, Rusmini. 2014. Kajian Pembuatan Yoghurt Dari Berbagai Jenis Susu Dan Inkubasi Yang Berbeda Terhadap Mutu Dan Daya Terima. Jurnal Skala Kesehatan Volume 5 No. 1 Tahun 2014.
+- Syainah, E., Novita, S. (2014): Kajian Pembuatan Yoghurt dari Berbagai Jenis Susu dan Inkubasi yang Berbeda Terhadap Mutu dan Daya Terima, Jurnal Skala Kesehatan, 5.
