@@ -1,6 +1,6 @@
 ---
 title: Probiotik
-img: /img/y5.jpg
+img: /img/handyo.jpeg
 ---
 
 Saat ini istilah probiotik sudah tidak asing lagi bagi masyarakat Indonesia. Banyak perusahaan makanan dan susu fermentasi yang mencatumkan proibiotik pada stiker kemasannya.
