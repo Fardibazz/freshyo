@@ -11,7 +11,7 @@
       "type": "yoghurt",
       "name": "Plain Yoghurt Drink",
       "description": "Yoghurt plain sederhana akan membuat tubuhmu lebih sehat",
-      "price": 10000,
+      "price": 12000,
       "img": "/img/y8.jpg"
     },
     {
@@ -19,14 +19,14 @@
       "img": "/img/mango-yo.jpg",
       "name": "Mango Yoghurt Drink",
       "description": "Kombinasi minuman yoghurt segar dan jus mangga yang menyegarkan harimu",
-      "price": 10000
+      "price": 12000
     },
     {
       "type": "yoghurt",
       "img": "/img/y7.jpg",
       "name": "Strawberry Yoghurt Drink",
       "description": "Kombinasi minuman yoghurt segar dan jus stroberi yang membuat harimu lebih menyenangkan",
-      "price": 10000
+      "price": 12000
     }
   ]
 }
