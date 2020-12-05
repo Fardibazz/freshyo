@@ -1,24 +1,22 @@
 <template>
-  <client-only>
-    <div class="mh-100">
-      <AppBanner
-        :cursive="banner.cursive"
-        :img="banner.img"
-        :title="banner.title"
-        class="mb-5"
-      />
+  <div class="mh-100">
+    <AppBanner
+      :cursive="banner.cursive"
+      :img="banner.img"
+      :title="banner.title"
+      class="mb-5"
+    />
 
-      <OrderProductType
-        v-for="(item, index) in page.titles"
-        :key="index"
-        :page="page"
-        :type="item.type"
-        :label="item.label"
-      />
+    <OrderProductType
+      v-for="(item, index) in page.titles"
+      :key="index"
+      :page="page"
+      :type="item.type"
+      :label="item.label"
+    />
 
-      <div id="snipcart" hidden :data-api-key="apiKey"></div>
-    </div>
-  </client-only>
+    <div id="snipcart" hidden :data-api-key="apiKey"></div>
+  </div>
 </template>
 
 <script>
