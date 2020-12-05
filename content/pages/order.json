@@ -10,7 +10,7 @@
     {
       "type": "yoghurt",
       "name": "Plain Yoghurt Drink",
-      "description": "Youghur plain sederhana akan membuat tubuhmu lebih sehat",
+      "description": "Yoghurt plain sederhana akan membuat tubuhmu lebih sehat",
       "price": 10000,
       "img": "/img/y8.jpg"
     },
@@ -18,14 +18,14 @@
       "type": "yoghurt",
       "img": "/img/mango-yo.jpg",
       "name": "Mango Yoghurt Drink",
-      "description": "Kombinasi yoghurt cair segar dan jus mangga yang menyegarkan harimu",
+      "description": "Kombinasi minuman yoghurt segar dan jus mangga yang menyegarkan harimu",
       "price": 10000
     },
     {
       "type": "yoghurt",
       "img": "/img/y7.jpg",
       "name": "Strawberry Yoghurt Drink",
-      "description": "Kombinasi yoghurt cair segar dan jus stroberi yang membuat harimu lebih menyenangkan",
+      "description": "Kombinasi minuman yoghurt segar dan jus stroberi yang membuat harimu lebih menyenangkan",
       "price": 10000
     }
   ]
