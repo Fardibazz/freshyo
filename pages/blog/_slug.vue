@@ -4,16 +4,16 @@
 
     <b-container class="mx-auto py-5 wrapper">
       <div class="d-flex flex-column align-items-center mx-auto">
-        <nuxt-content :document="page" class="mb-5" />
+        <nuxt-content :document="page" />
 
-        <Disqus />
-
-        <p class="link mb-0 w-100">
+        <p class="link mb-0 mb-5 w-100">
           <nuxt-link to="/blog">
             <ChevronLeftIcon />
             Lihat artikel lain
           </nuxt-link>
         </p>
+
+        <Disqus class="mb-5 w-100" />
       </div>
     </b-container>
   </div>
