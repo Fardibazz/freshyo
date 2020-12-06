@@ -11,7 +11,7 @@ Probiotik sendiri sudah dikenal sejak 2000 tahun yang lalu, namun baru awal abad
 
 Metchnikoff mendapatkan, bangsa Caucasian yang mempunyai kebiasaan mengkonsumsi yoghurt (susu fermentasi) tetap sehat dalam usia lanjut. Metchnikoff berpendapat bahwa bakteri asam laktat yang terdapat pada produk susu fermentasi tersebut yang berperan menjaga kesehatan usus halus.
 
-**Jadi probiotik itu apasih?**
+**Jadi probiotik itu apa sih?**
 
 Menurut _Food and Agriculture Organization_ (FAO), probiotik adalah suatu mikroorganisme hidup yang bermanfaat bagi kesehatan manusia maupun hewan. Prinsip kerja probiotik yaitu dengan memanfaatkan kemampuan organisme tersebut dalam menguraikan rantai panjang karbohidrat, protein dan lemak.
 

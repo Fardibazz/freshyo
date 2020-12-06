@@ -3,7 +3,7 @@ title: Keju
 img: /img/whatsapp-image-2020-11-24-at-11.14.49.jpeg
 ---
 
-**Pasti anda sudah sangat tidak asing dengan istilah "keju" namun apakah anda tahu keju itu terbuat dari apasih?**
+**Pasti anda sudah sangat tidak asing dengan istilah "keju" namun apakah anda tahu keju itu terbuat dari apa sih?**
 
 Keju merupakan salah satu produk susu yang bergizi tinggi yang dihasilkan dari proses penggumpalan protein pada susu karena koagulasi protein susu dari ternak ruminansia, oleh reaksi enzim rennin atau enzim proteolitik lainnya, dalam kondisi asam oleh adanya asam laktat hasil kerja dari bakteri asam laktat yang ditambahkan.
 
