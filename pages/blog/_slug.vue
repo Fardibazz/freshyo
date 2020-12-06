@@ -6,6 +6,8 @@
       <div class="d-flex flex-column align-items-center mx-auto">
         <nuxt-content :document="page" class="mb-5" />
 
+        <Disqus />
+
         <p class="link mb-0 w-100">
           <nuxt-link to="/blog">
             <ChevronLeftIcon />
