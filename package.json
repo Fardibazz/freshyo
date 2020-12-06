@@ -24,7 +24,7 @@
     "@nuxtjs/snipcart": "^1.1.0",
     "bootstrap-vue": "^2.20.1",
     "bootstrap": "^4.5.3",
-    "core-js": "^3.8.0",
+    "core-js": "^3.8.1",
     "nuxt": "^2.14.9",
     "vue-disqus": "^4.0.1",
     "vue-feather-icons": "^5.1.0",
