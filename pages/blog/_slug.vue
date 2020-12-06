@@ -6,14 +6,14 @@
       <div class="d-flex flex-column align-items-center mx-auto">
         <nuxt-content :document="page" />
 
-        <p class="link mb-0 mb-5 w-100">
+        <p class="link mb-0 py-5 w-100">
           <nuxt-link to="/blog">
             <ChevronLeftIcon />
             Lihat artikel lain
           </nuxt-link>
         </p>
 
-        <Disqus class="mb-5 w-100" />
+        <Disqus :pageConfig="pageConfig" lang="id" class="mb-5 w-100" />
       </div>
     </b-container>
   </div>
@@ -31,6 +31,13 @@ export default {
 
     return {
       page
+    };
+  },
+  data() {
+    return {
+      pageConfig: {
+        url: `https://freshyo.netlify.app${this.$route.path}`
+      }
     };
   }
 };
