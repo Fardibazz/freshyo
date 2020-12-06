@@ -13,7 +13,7 @@
           </nuxt-link>
         </p>
 
-        <Disqus :pageConfig="pageConfig" lang="id" class="mb-5 w-100" />
+        <Disqus :page-config="pageConfig" lang="id" class="mb-5 w-100" />
       </div>
     </b-container>
   </div>
