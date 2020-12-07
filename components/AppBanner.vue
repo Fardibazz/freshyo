@@ -10,16 +10,19 @@
       {{ cursive }}
     </span>
 
-    <h2
-      v-if="this.$route.name != 'index'"
-      :class="'font-weight-bold text-uppercase text-' + color"
-    >
-      {{ title }}
-    </h2>
+    <div v-if="this.$route.name != 'index'">
+      <h2 :class="'font-weight-bold text-uppercase text-' + color">
+        {{ title }}
+      </h2>
 
-    <h1 v-else :class="'font-weight-bold text-uppercase text-' + color">
-      {{ title }}
-    </h1>
+      <p v-if="subtitle" class="text-center text-white">{{ subtitle }}</p>
+    </div>
+
+    <div v-else>
+      <h1 :class="'font-weight-bold text-uppercase text-' + color">
+        {{ title }}
+      </h1>
+    </div>
   </b-container>
 </template>
 
@@ -37,6 +40,10 @@ export default {
     img: {
       type: String,
       required: true
+    },
+    subtitle: {
+      type: String,
+      default: ""
     },
     title: {
       type: String,

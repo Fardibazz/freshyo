@@ -20,6 +20,7 @@
         >
           <b-card
             :title="item.title"
+            :sub-title="item.createdAt | moment('calendar')"
             :img-src="item.img"
             :img-alt="item.title"
             img-top
@@ -40,7 +41,9 @@ export default {
 
     const page = await $content("pages/blog").fetch();
 
-    const posts = await $content("posts").fetch();
+    const posts = await $content("posts")
+      .only(["createdAt", "img", "slug", "title"])
+      .fetch();
 
     return {
       banner,
@@ -54,6 +57,11 @@ export default {
 <style lang="scss" scoped>
 .card-img-top {
   height: 250px;
+}
+
+.card-subtitle {
+  font-size: 0.8rem;
+  margin-top: 0;
 }
 
 .list-group-item:hover {

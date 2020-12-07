@@ -1,6 +1,10 @@
 <template>
   <div class="mh-100">
-    <AppBanner :img="page.img" :title="page.title" />
+    <AppBanner
+      :img="page.img"
+      :title="page.title"
+      :subtitle="page.createdAt | moment('calendar')"
+    />
 
     <b-container class="mx-auto py-5 wrapper">
       <div class="d-flex flex-column align-items-center mx-auto">
