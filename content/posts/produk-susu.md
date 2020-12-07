@@ -11,4 +11,4 @@ Konsumsi susu dan makanan olahan susu terbukti tidak menyebabkan peningkatan ris
 
 Sumber:
 
-* Givens, D.I. (2020): MILK Symposium review: The importance of milk and dairy foods in the diets of infants, adolescents, pregnant women, adults, and the elderly, Journal of Dairy Science, 103, 9681-9699. https://doi.org/10.3168/jds.2020-18296.
+- Givens, D.I. (2020): MILK Symposium review: The importance of milk and dairy foods in the diets of infants, adolescents, pregnant women, adults, and the elderly, Journal of Dairy Science, 103, 9681-9699. https://doi.org/10.3168/jds.2020-18296.
