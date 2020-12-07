@@ -12,8 +12,6 @@
             Lihat artikel lain
           </nuxt-link>
         </p>
-
-        <Disqus :page-config="pageConfig" lang="id" class="mb-5 w-100" />
       </div>
     </b-container>
   </div>
@@ -31,13 +29,6 @@ export default {
 
     return {
       page
-    };
-  },
-  data() {
-    return {
-      pageConfig: {
-        url: `https://freshyo.netlify.app${this.$route.path}`
-      }
     };
   }
 };
