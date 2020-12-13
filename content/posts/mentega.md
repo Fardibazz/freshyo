@@ -13,7 +13,7 @@ Oleh karena itu, umumnya jika seseorang akan membuat kue atau _cookies_ maka ia 
 
 **Kemudian, apakah anda tahu kalau mentega dan margarin itu berbeda?**
 
-Bahan pembuat kedua produk tersebut berbeda. Mrgarin adalah produk _non-dairy_ yang dibuat sebagai pengganti mentega. Margarin dibuat dari campuran minyak sayur, air, garam, dan pengemulsi.
+Bahan pembuat kedua produk tersebut berbeda. Margarin adalah produk _non-dairy_ yang dibuat sebagai pengganti mentega. Margarin dibuat dari campuran minyak sayur, air, garam, dan pengemulsi.
 
 Dalam proses pembuatannya akan terjadi perubahan struktur beberapa asam lemak tak jenuh menjadi _trans-fatty acids_. Lemak jenis _trans-fatty acids_ memiliki karakter serupa dengan lemak jenuh, yang sering dikaitkan dengan risiko tekanan darah tinggi.
 
