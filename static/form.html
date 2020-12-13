@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form
+      action="/terkirim"
+      data-netlify="true"
+      method="POST"
+      name="kontak"
+      hidden
+    >
+      <fieldset aria-describedby="" class="form-group">
+        <!---->
+        <div tabindex="-1" role="group" class="bv-no-focus-ring">
+          <input
+            id="name"
+            name="name"
+            placeholder="Nama"
+            required
+            aria-required="true"
+            class="form-control"
+          /><!----><!----><!---->
+        </div>
+      </fieldset>
+      <fieldset aria-describedby="" class="form-group">
+        <!---->
+        <div tabindex="-1" role="group" class="bv-no-focus-ring">
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="Email"
+            required
+            aria-required="true"
+            class="form-control"
+          /><!----><!----><!---->
+        </div>
+      </fieldset>
+      <fieldset aria-describedby="" class="form-group">
+        <!---->
+        <div tabindex="-1" role="group" class="bv-no-focus-ring">
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Pesan"
+            required
+            rows="3"
+            wrap="soft"
+            aria-required="true"
+            class="form-control"
+          ></textarea
+          ><!----><!----><!---->
+        </div>
+      </fieldset>
+      <input type="hidden" name="Kontak" value="Kontak" />
+      <button type="submit" class="btn text-white btn-primary btn-block">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24px"
+          height="24px"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="feather feather-send"
+        >
+          <line x1="22" y1="2" x2="11" y2="13"></line>
+          <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+        </svg>
+        KIRIM
+      </button>
+    </form>
+  </body>
+</html>
