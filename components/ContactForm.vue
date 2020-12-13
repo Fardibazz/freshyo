@@ -2,8 +2,8 @@
   <div class="mb-5">
     <h2 class="mb-3 mb-lg-4">{{ page.intro }}</h2>
 
-    <b-form action="/terkirim" data-netlify="true" method="POST" name="Kontak">
-      <input type="hidden" name="Kontak" value="kontak" />
+    <b-form action="/terkirim" data-netlify="true" method="post" name="kontak">
+      <input type="hidden" name="form-name" value="kontak" />
 
       <b-form-group>
         <b-form-input
